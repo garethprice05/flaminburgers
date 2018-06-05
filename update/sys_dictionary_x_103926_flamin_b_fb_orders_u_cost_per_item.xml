@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="order_status" table="x_103926_flamin_b_fb_orders">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_cost_per_item" table="x_103926_flamin_b_fb_orders">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>omit_sys_original=false</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice>1</choice>
+        <calculation/>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Order Status</column_label>
+        <column_label>Cost Per Item</column_label>
         <comments/>
         <create_roles/>
-        <default_value>draft</default_value>
+        <default_value>0.00</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -28,14 +23,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>order_status</element>
+        <element>u_cost_per_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Currency">currency</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>20</max_length>
         <name>x_103926_flamin_b_fb_orders</name>
         <next_element/>
         <primary>false</primary>
@@ -53,16 +48,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
-        <sys_created_on>2018-06-04 14:05:06</sys_created_on>
-        <sys_id>26cb80f0db6213003a915ec0cf9619ed</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Order Status</sys_name>
+        <sys_created_on>2018-06-05 12:59:22</sys_created_on>
+        <sys_id>aa0ac109dbea13003a915ec0cf96197d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Cost Per Item</sys_name>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
-        <sys_update_name>sys_dictionary_x_103926_flamin_b_fb_orders_order_status</sys_update_name>
+        <sys_update_name>sys_dictionary_x_103926_flamin_b_fb_orders_u_cost_per_item</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-05 13:55:58</sys_updated_on>
+        <sys_updated_on>2018-06-05 13:29:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2018-06-05 12:27:14</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-05 12:27:14</sys_created_on>
+        <sys_id>3fa20105dbea13003a915ec0cf961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dMEIAL4HORI:APA91bHltNtjJDHFJYHg-qFA3WkNgEzO5MarZs4qVtTwheygHh6zK86S8wQzC_wDHRzbf17Q5bSNRFlxzue0gX5FQ5c0O7tRPakee5Bj0NGqkgXhVTIsOxV5oXM7QI5VvFcfW7XEsOU2</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_3fa20105dbea13003a915ec0cf961941</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-05 12:27:14</sys_updated_on>
+        <sys_user_id display_value="Gareth  Price">9c917b24db2213003a915ec0cf9619a8</sys_user_id>
+        <token>dMEIAL4HORI:APA91bHltNtjJDHFJYHg-qFA3WkNgEzO5MarZs4qVtTwheygHh6zK86S8wQzC_wDHRzbf17Q5bSNRFlxzue0gX5FQ5c0O7tRPakee5Bj0NGqkgXhVTIsOxV5oXM7QI5VvFcfW7XEsOU2</token>
+    </sys_push_notif_app_install>
+</record_update>

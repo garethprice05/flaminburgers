@@ -3,6 +3,7 @@
     <element label="Flamin' Burgers Suppliers" max_length="40" name="x_103926_flamin_b_flamin_burgers_suppliers" type="collection">
         <element label="Account Number" max_length="40" name="account_number" type="string"/>
         <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="Delivery Cost" max_length="20" name="delivery_cost" type="currency"/>
         <element label="Email Address" max_length="40" name="email_address" type="string"/>
         <element label="Fax Number" max_length="40" name="fax_number" type="string"/>
         <element label="Main Contact" max_length="40" name="main_contact" type="string"/>

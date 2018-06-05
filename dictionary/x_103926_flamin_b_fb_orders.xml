@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="FB Orders" max_length="40" name="x_103926_flamin_b_fb_orders" type="collection">
-        <element label="Branch" max_length="32" name="branch" reference="x_103926_flamin_b_fb_branches" type="reference"/>
+        <element label="Branch" mandatory="true" max_length="32" name="branch" reference="x_103926_flamin_b_fb_branches" type="reference"/>
         <element label="Branch Address" max_length="4000" name="branch_address" type="string"/>
-        <element label="Date Submitted" max_length="40" name="date_submitted" type="glide_date_time"/>
-        <element label="Item Ordered" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" type="reference"/>
-        <element default="javascript:global.getNextObjNumberPadded();" label="Order Number" max_length="40" name="order_number" type="string"/>
-        <element label="Order Placed By" max_length="32" name="order_placed_by" reference="sys_user" type="reference"/>
-        <element choice="1" label="Order Status" max_length="40" name="order_status" type="choice">
+        <element label="Date Submitted" max_length="40" name="date_submitted" read_only="true" type="glide_date_time"/>
+        <element label="Item" mandatory="true" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Order Number" max_length="40" name="order_number" read_only="true" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Order Placed By" max_length="32" name="order_placed_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" default="draft" label="Order Status" max_length="40" name="order_status" read_only="true" type="choice">
             <choice>
-                <element label="Cancelled" value="cancelled"/>
-                <element label="Draft" value="draft"/>
-                <element label="Order Received" value="received"/>
-                <element label="Ordered" value="ordered"/>
-                <element label="Out for Delivery" value="delivery"/>
-                <element label="Pending Approval" value="pending"/>
+                <element label="Cancelled" sequence="0" value="cancelled"/>
+                <element label="Draft" sequence="1" value="draft"/>
+                <element label="Order Received" sequence="2" value="received"/>
+                <element label="Ordered" sequence="3" value="ordered"/>
+                <element label="Out for Delivery" sequence="4" value="delivery"/>
+                <element label="Pending Approval" sequence="5" value="pending"/>
             </choice>
         </element>
         <element label="Quantity" max_length="40" name="quantity" type="string"/>
-        <element label="Total Cost" max_length="20" name="total_cost" type="currency"/>
+        <element default="0.00" label="Total Cost" max_length="20" name="total_cost" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=false" default="0.00" label="Cost Per Item" max_length="20" name="u_cost_per_item" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0.00" label="Delivery Cost" max_length="20" name="u_delivery_cost" read_only="true" type="currency"/>
+        <element choice="1" label="Quantity" mandatory="true" max_length="40" name="u_quantity" type="integer">
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="2" sequence="1" value="2"/>
+                <element label="3" sequence="2" value="3"/>
+                <element label="4" sequence="3" value="4"/>
+                <element label="5" sequence="4" value="5"/>
+                <element label="6" sequence="5" value="6"/>
+                <element label="7" sequence="6" value="7"/>
+                <element label="8" sequence="7" value="8"/>
+                <element label="9" sequence="8" value="9"/>
+                <element label="10" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <element label="Supplier" max_length="32" name="u_supplier" read_only="true" reference="x_103926_flamin_b_flamin_burgers_suppliers" type="reference"/>
         <index name="index">
             <element name="item_ordered"/>
         </index>
@@ -26,6 +43,9 @@
             <element name="order_placed_by"/>
         </index>
         <index name="index3">
+            <element name="u_supplier"/>
+        </index>
+        <index name="index4">
             <element name="branch"/>
         </index>
     </element>
