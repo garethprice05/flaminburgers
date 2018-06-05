@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="1f136534db2613003a915ec0cf9619fc" sys_domain="global" table="pc_software_cat_item" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 20:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9313a534db2613003a915ec0cf961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1f136534db2613003a915ec0cf9619fc</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="pc_software_cat_item" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">9f136534db2613003a915ec0cf9619fe</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 20:10:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 20:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db132d34db2613003a915ec0cf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">1f136534db2613003a915ec0cf9619fc</sys_ui_form>
+            <sys_ui_section caption="Mobile" display_value="Mobile" name="pc_software_cat_item" sys_domain="global" view="7966be310a0a0b8c00bd504090503227">9b132d34db2613003a915ec0cf961954</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 20:10:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>pc_software_cat_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 20:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f136534db2613003a915ec0cf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pc_software_cat_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1f136534db2613003a915ec0cf9619fc</sys_update_name>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 20:10:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

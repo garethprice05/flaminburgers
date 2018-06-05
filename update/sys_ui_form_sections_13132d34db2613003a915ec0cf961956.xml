@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="13132d34db2613003a915ec0cf961956" sys_domain="global" table="pc_software_cat_item" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 20:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f132d34db2613003a915ec0cf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">13132d34db2613003a915ec0cf961956</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">9b132d34db2613003a915ec0cf961957</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 20:10:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 20:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f132d34db2613003a915ec0cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">13132d34db2613003a915ec0cf961956</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">93132d34db2613003a915ec0cf961959</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 20:10:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 20:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b132d34db2613003a915ec0cf96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">13132d34db2613003a915ec0cf961956</sys_ui_form>
+            <sys_ui_section caption="Costs" display_value="Costs" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">53132d34db2613003a915ec0cf96195b</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 20:10:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>pc_software_cat_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 20:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13132d34db2613003a915ec0cf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pc_software_cat_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+            <sys_update_name>sys_ui_form_sections_13132d34db2613003a915ec0cf961956</sys_update_name>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 20:10:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Item Designer" name="sc_cat_item_designer">f5a795fceb3211003623666cd206fe19</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

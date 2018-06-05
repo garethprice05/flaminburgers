@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-06-05 08:31:58">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-04 13:10:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe13c87cdb2213003a915ec0cf961933</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>catalog_flamin_burger_orderable_items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_portal_page_fe13c87cdb2213003a915ec0cf961933</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-04 13:32:37</sys_updated_on>
+        <title>catalog_flamin_burger_orderable_items</title>
+        <user/>
+        <view>catalog_flamin_burger_orderable_items</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="catalog_flamin_burger_orderable_items">fe13c87cdb2213003a915ec0cf961933</page>
+                <summary/>
+                <sys_created_by>admin-gp1</sys_created_by>
+                <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                <sys_id>63ca0cc5db6a13003a915ec0cf961945</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin-gp1</sys_updated_by>
+                <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>27ca0cc5db6a13003a915ec0cf961953</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=442384fcdb2213003a915ec0cf961939&amp;amp;sysparm_catalog=0bf204fcdb2213003a915ec0cf9619a8&amp;amp;sysparm_catalog_view=catalog_Flamin_Burger_Orderable_Items</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>2bca0cc5db6a13003a915ec0cf961953</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>Packaging</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>63ca0cc5db6a13003a915ec0cf961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>67ca0cc5db6a13003a915ec0cf961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>0bf204fcdb2213003a915ec0cf9619a8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>6bca0cc5db6a13003a915ec0cf961945</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>sc_catalog_homepage_category_item</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>6bca0cc5db6a13003a915ec0cf961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>6fca0cc5db6a13003a915ec0cf961945</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>a3ca0cc5db6a13003a915ec0cf961954</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>catalog_Flamin_Burger_Orderable_Items</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>a7ca0cc5db6a13003a915ec0cf961954</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>fe13c87cdb2213003a915ec0cf961933</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>afca0cc5db6a13003a915ec0cf961953</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">63ca0cc5db6a13003a915ec0cf961945</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>e3ca0cc5db6a13003a915ec0cf961945</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>442384fcdb2213003a915ec0cf961939</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_flamin_burger_orderable_items">fe13c87cdb2213003a915ec0cf961933</page>
+                <summary/>
+                <sys_created_by>admin-gp1</sys_created_by>
+                <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                <sys_id>afca0cc5db6a13003a915ec0cf961941</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin-gp1</sys_updated_by>
+                <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>23ca0cc5db6a13003a915ec0cf961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>bc63c4fcdb2213003a915ec0cf9619d6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>27ca0cc5db6a13003a915ec0cf961944</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>2bca0cc5db6a13003a915ec0cf961944</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>catalog_Flamin_Burger_Orderable_Items</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>2fca0cc5db6a13003a915ec0cf961944</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>fe13c87cdb2213003a915ec0cf961933</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>a3ca0cc5db6a13003a915ec0cf961943</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>0bf204fcdb2213003a915ec0cf9619a8</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>a7ca0cc5db6a13003a915ec0cf961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>sc_catalog_homepage_category_list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>a7ca0cc5db6a13003a915ec0cf961943</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>abca0cc5db6a13003a915ec0cf961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>abca0cc5db6a13003a915ec0cf961943</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=bc63c4fcdb2213003a915ec0cf9619d6&amp;amp;sysparm_catalog=0bf204fcdb2213003a915ec0cf9619a8&amp;amp;sysparm_catalog_view=catalog_Flamin_Burger_Orderable_Items</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>afca0cc5db6a13003a915ec0cf961942</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">afca0cc5db6a13003a915ec0cf961941</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>afca0cc5db6a13003a915ec0cf961943</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>Perishables</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_flamin_burger_orderable_items">fe13c87cdb2213003a915ec0cf961933</page>
+                <summary/>
+                <sys_created_by>admin-gp1</sys_created_by>
+                <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                <sys_id>e7ca0cc5db6a13003a915ec0cf961940</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin-gp1</sys_updated_by>
+                <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">e7ca0cc5db6a13003a915ec0cf961940</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>6bca0cc5db6a13003a915ec0cf961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>174477a4db2213003a915ec0cf9619bd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">e7ca0cc5db6a13003a915ec0cf961940</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>6bca0cc5db6a13003a915ec0cf961941</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>fe13c87cdb2213003a915ec0cf961933</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">e7ca0cc5db6a13003a915ec0cf961940</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>e3ca0cc5db6a13003a915ec0cf961941</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>Flamin' Burgers</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">e7ca0cc5db6a13003a915ec0cf961940</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>efca0cc5db6a13003a915ec0cf961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderMenus</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_flamin_burger_orderable_items">fe13c87cdb2213003a915ec0cf961933</page>
+                <summary/>
+                <sys_created_by>admin-gp1</sys_created_by>
+                <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                <sys_id>ebca0cc5db6a13003a915ec0cf961954</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin-gp1</sys_updated_by>
+                <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>63ca0cc5db6a13003a915ec0cf961957</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>67ca0cc5db6a13003a915ec0cf961957</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>catalog_Flamin_Burger_Orderable_Items</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>6bca0cc5db6a13003a915ec0cf961957</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>fe13c87cdb2213003a915ec0cf961933</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>6fca0cc5db6a13003a915ec0cf961954</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>bc63c4fcdb2213003a915ec0cf9619d6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>e3ca0cc5db6a13003a915ec0cf961955</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>sc_catalog_homepage_category_item</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>e3ca0cc5db6a13003a915ec0cf961956</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>e7ca0cc5db6a13003a915ec0cf961955</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>e7ca0cc5db6a13003a915ec0cf961956</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=bc63c4fcdb2213003a915ec0cf9619d6&amp;amp;sysparm_catalog=0bf204fcdb2213003a915ec0cf9619a8&amp;amp;sysparm_catalog_view=catalog_Flamin_Burger_Orderable_Items</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>ebca0cc5db6a13003a915ec0cf961955</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>ebca0cc5db6a13003a915ec0cf961956</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>Perishables</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 05/06/2018 09:23:06">ebca0cc5db6a13003a915ec0cf961954</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-05 08:23:06</sys_created_on>
+                        <sys_id>efca0cc5db6a13003a915ec0cf961955</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-05 08:23:06</sys_updated_on>
+                        <value>0bf204fcdb2213003a915ec0cf9619a8</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

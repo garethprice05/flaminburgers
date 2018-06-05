@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Flamin Burger Orderable Items">0bf204fcdb2213003a915ec0cf9619a8</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-04 13:12:02</sys_created_on>
+        <sys_id>442384fcdb2213003a915ec0cf961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Packaging</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sc_category_442384fcdb2213003a915ec0cf961939</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-04 13:12:02</sys_updated_on>
+        <title>Packaging</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=442384fcdb2213003a915ec0cf961939"/>
+</record_update>

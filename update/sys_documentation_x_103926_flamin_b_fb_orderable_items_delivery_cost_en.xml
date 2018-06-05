@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="delivery_cost" label="Delivery Cost" language="en" table="x_103926_flamin_b_fb_orderable_items">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>delivery_cost</element>
+            <help/>
+            <hint/>
+            <label>Delivery Cost</label>
+            <language>en</language>
+            <name>x_103926_flamin_b_fb_orderable_items</name>
+            <plural>Delivery Costs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 19:15:47</sys_created_on>
+            <sys_id>629659f8dbe213003a915ec0cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Delivery Cost</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+            <sys_update_name>sys_documentation_x_103926_flamin_b_fb_orderable_items_delivery_cost_en</sys_update_name>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 19:15:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

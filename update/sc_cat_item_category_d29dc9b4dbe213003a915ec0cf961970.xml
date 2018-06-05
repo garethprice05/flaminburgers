@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Place an Order">3c9fc8b4db6213003a915ec0cf96198f</sc_cat_item>
+        <sc_category display_value="Perishables">bc63c4fcdb2213003a915ec0cf9619d6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-04 18:36:27</sys_created_on>
+        <sys_id>d29dc9b4dbe213003a915ec0cf961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Perishables.Place an Order</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sc_cat_item_category_d29dc9b4dbe213003a915ec0cf961970</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-04 18:36:27</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

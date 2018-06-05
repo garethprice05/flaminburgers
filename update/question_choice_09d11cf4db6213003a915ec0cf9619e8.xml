@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Category">b9d0d0f4db6213003a915ec0cf961956</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-04 14:15:18</sys_created_on>
+        <sys_id>09d11cf4db6213003a915ec0cf9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Perishables</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>question_choice_09d11cf4db6213003a915ec0cf9619e8</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-04 14:15:18</sys_updated_on>
+        <text>Perishables</text>
+        <value>perishables</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=09d11cf4db6213003a915ec0cf9619e8"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>09d11cf4db6213003a915ec0cf9619e8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-04 14:15:18</sys_created_on>
+        <sys_id>89d11cf4db6213003a915ec0cf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-04 14:15:18</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>09d11cf4db6213003a915ec0cf9619e8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-04 14:15:18</sys_created_on>
+        <sys_id>41d11cf4db6213003a915ec0cf9619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-04 14:15:18</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

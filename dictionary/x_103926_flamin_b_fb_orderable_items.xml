@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="FB Orderable Items" max_length="40" name="x_103926_flamin_b_fb_orderable_items" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="Cleaning Products" value="cleaning"/>
+                <element label="Packaging" value="packaging"/>
+                <element label="Perishables" value="perishables"/>
+            </choice>
+        </element>
+        <element label="Cost per Item" max_length="20" name="cost_per_item" type="currency"/>
+        <element label="Delivery Cost" max_length="20" name="delivery_cost" type="currency"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element display="true" label="Product Name" max_length="40" name="product_name" type="string"/>
+        <element label="Supplier" max_length="32" name="supplier" reference="x_103926_flamin_b_flamin_burgers_suppliers" type="reference"/>
+        <index name="index">
+            <element name="supplier"/>
+        </index>
+    </element>
+</database>

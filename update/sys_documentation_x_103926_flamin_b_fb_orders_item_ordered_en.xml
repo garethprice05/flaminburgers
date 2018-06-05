@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="item_ordered" label="Item Ordered" language="en" table="x_103926_flamin_b_fb_orders">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>item_ordered</element>
+            <help/>
+            <hint/>
+            <label>Item Ordered</label>
+            <language>en</language>
+            <name>x_103926_flamin_b_fb_orders</name>
+            <plural>Item Ordered</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-04 14:05:07</sys_created_on>
+            <sys_id>7b7f48b4db6213003a915ec0cf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Item Ordered</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+            <sys_update_name>sys_documentation_x_103926_flamin_b_fb_orders_item_ordered_en</sys_update_name>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-04 14:05:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

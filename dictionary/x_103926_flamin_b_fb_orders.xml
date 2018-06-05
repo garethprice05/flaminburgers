@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="FB Orders" max_length="40" name="x_103926_flamin_b_fb_orders" type="collection">
+        <element label="Branch" max_length="32" name="branch" reference="x_103926_flamin_b_fb_branches" type="reference"/>
+        <element label="Branch Address" max_length="4000" name="branch_address" type="string"/>
+        <element label="Date Submitted" max_length="40" name="date_submitted" type="glide_date_time"/>
+        <element label="Item Ordered" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Order Number" max_length="40" name="order_number" type="string"/>
+        <element label="Order Placed By" max_length="32" name="order_placed_by" reference="sys_user" type="reference"/>
+        <element choice="1" label="Order Status" max_length="40" name="order_status" type="choice">
+            <choice>
+                <element label="Cancelled" value="cancelled"/>
+                <element label="Draft" value="draft"/>
+                <element label="Order Received" value="received"/>
+                <element label="Ordered" value="ordered"/>
+                <element label="Out for Delivery" value="delivery"/>
+                <element label="Pending Approval" value="pending"/>
+            </choice>
+        </element>
+        <element label="Quantity" max_length="40" name="quantity" type="string"/>
+        <element label="Total Cost" max_length="20" name="total_cost" type="currency"/>
+        <index name="index">
+            <element name="item_ordered"/>
+        </index>
+        <index name="index2">
+            <element name="order_placed_by"/>
+        </index>
+        <index name="index3">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>
