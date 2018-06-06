@@ -5,7 +5,8 @@
         <element display="true" label="Branch Name" max_length="40" name="branch_name" type="string"/>
         <element label="Branch Region" max_length="32" name="branch_region" reference="x_103926_flamin_b_fb_regions" type="reference"/>
         <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
-        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="branch_region"/>
         </index>

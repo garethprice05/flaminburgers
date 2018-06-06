@@ -11,30 +11,27 @@
         <name>Calculate Total Cost</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
-
-	var vat = 0.20;
-   g_form.setValue('total_cost',subTotal());
-	
-	function calculatedCost(){
-		var subTotal = subTotal();
-		g_form.addErrorMessage(subTotal);
-		var totalVat = subTotal*vat;
-		return subTotal+totalVat;
+	if (isLoading || newValue === '') {
+		return;
 	}
 	
-	function subTotal(){
+	var vat = 0.2; //fixed VAT percentage
+	g_form.setValue('total_cost',calculatedCost().toFixed(2));
+	
+	
+	function calculatedCost(){
 		var quantity = g_form.getValue('u_quantity');
 		var delivery = g_form.getValue('u_delivery_cost');
 		var unitCost = g_form.getValue('u_cost_per_item');
-		var total = quantity*delivery*unitCost;
-		return total.toFixed(2);
+		var subTotal = parseFloat(quantity)*parseFloat(unitCost)+parseFloat(delivery); //this is the cost excluding VAT (parseFloat used to convert decimal values to integers)
+		return (subTotal+(parseFloat(subTotal)*parseFloat(vat))); //calculate the total cost + VAT
+		
 	}
-   
+	
 
-   
+	//
+	
+	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
@@ -42,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cc0b4d09dbea13003a915ec0cf96199f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Calculate Total Cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -50,7 +47,7 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_client_cc0b4d09dbea13003a915ec0cf96199f</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-05 13:30:31</sys_updated_on>
+        <sys_updated_on>2018-06-06 08:50:58</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

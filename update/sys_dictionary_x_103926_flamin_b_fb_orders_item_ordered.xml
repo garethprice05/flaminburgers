@@ -45,8 +45,10 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>categorySAMEAScategory^EQ</reference_qual>
+        <reference_qual_condition table="x_103926_flamin_b_fb_orderable_items">categorySAMEAScategory^EQ<item endquery="false" field="category" goto="false" newquery="false" operator="SAMEAS" or="false" value="category"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -55,14 +57,14 @@
         <sys_created_by>admin-gp1</sys_created_by>
         <sys_created_on>2018-06-04 14:05:06</sys_created_on>
         <sys_id>cb990cb0db6213003a915ec0cf961968</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Item</sys_name>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_dictionary_x_103926_flamin_b_fb_orders_item_ordered</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-05 14:16:19</sys_updated_on>
+        <sys_updated_on>2018-06-06 08:44:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

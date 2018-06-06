@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="FB Branch Employees" max_length="40" name="x_103926_flamin_b_fb_branch_employees" type="collection">
+        <element label="Branch" max_length="32" name="branch" reference="x_103926_flamin_b_fb_branches" type="reference"/>
+        <element display="true" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+        <index name="index2">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="FB Orders" max_length="40" name="x_103926_flamin_b_fb_orders" type="collection">
+    <element audit="true" label="FB Orders" max_length="40" name="x_103926_flamin_b_fb_orders" type="collection">
         <element label="Branch" mandatory="true" max_length="32" name="branch" reference="x_103926_flamin_b_fb_branches" type="reference"/>
         <element label="Branch Address" max_length="4000" name="branch_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element label="Cleaning Products" value="cleaning"/>
+                <element label="Packaging" value="packaging"/>
+                <element label="Perishables" value="perishables"/>
+            </choice>
+        </element>
         <element label="Date Submitted" max_length="40" name="date_submitted" read_only="true" type="glide_date_time"/>
-        <element label="Item" mandatory="true" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" type="reference"/>
+        <element label="Item" mandatory="true" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" reference_qual="categorySAMEAScategory^EQ" reference_qual_condition="categorySAMEAScategory^EQ" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Order Number" max_length="40" name="order_number" read_only="true" type="string"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Order Placed By" max_length="32" name="order_placed_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="1" default="draft" label="Order Status" max_length="40" name="order_status" read_only="true" type="choice">

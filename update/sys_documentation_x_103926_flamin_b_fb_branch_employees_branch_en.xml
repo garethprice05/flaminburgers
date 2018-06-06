@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="branch" label="Branch" language="en" table="x_103926_flamin_b_fb_branch_employees">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>branch</element>
+            <help/>
+            <hint/>
+            <label>Branch</label>
+            <language>en</language>
+            <name>x_103926_flamin_b_fb_branch_employees</name>
+            <plural>Branches</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-06 09:31:00</sys_created_on>
+            <sys_id>73e36199db2653003a915ec0cf9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Branch</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+            <sys_update_name>sys_documentation_x_103926_flamin_b_fb_branch_employees_branch_en</sys_update_name>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-06 09:31:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
