@@ -2,30 +2,30 @@
 <record_update>
     <sys_ui_section caption="" section_id="4504a159db2653003a915ec0cf961953" sys_domain="global" table="x_103926_flamin_b_fb_branch_employees" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>employee_name</element>
             <position>0</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-06 09:31:20</sys_created_on>
-            <sys_id>8d04a159db2653003a915ec0cf961958</sys_id>
+            <sys_created_on>2018-06-06 14:47:01</sys_created_on>
+            <sys_id>194c6291dbe653003a915ec0cf961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branch_employees" sys_domain="global" view="Default view">4504a159db2653003a915ec0cf961953</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-06 09:31:20</sys_updated_on>
+            <sys_updated_on>2018-06-06 14:47:01</sys_updated_on>
             <sys_user/>
-            <type>.begin_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>branch</element>
             <position>1</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-06 09:31:20</sys_created_on>
-            <sys_id>0104a159db2653003a915ec0cf961959</sys_id>
+            <sys_created_on>2018-06-06 14:47:01</sys_created_on>
+            <sys_id>9d4c6291dbe653003a915ec0cf961935</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branch_employees" sys_domain="global" view="Default view">4504a159db2653003a915ec0cf961953</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-06 09:31:20</sys_updated_on>
+            <sys_updated_on>2018-06-06 14:47:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,43 +33,15 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-06 09:31:20</sys_created_on>
-            <sys_id>8104a159db2653003a915ec0cf961959</sys_id>
+            <sys_created_on>2018-06-06 14:47:01</sys_created_on>
+            <sys_id>114c6291dbe653003a915ec0cf961936</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branch_employees" sys_domain="global" view="Default view">4504a159db2653003a915ec0cf961953</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-06 09:31:20</sys_updated_on>
+            <sys_updated_on>2018-06-06 14:47:01</sys_updated_on>
             <sys_user/>
             <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>employee_name</element>
-            <position>3</position>
-            <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-06 09:31:20</sys_created_on>
-            <sys_id>0504a159db2653003a915ec0cf961959</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branch_employees" sys_domain="global" view="Default view">4504a159db2653003a915ec0cf961953</sys_ui_section>
-            <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-06 09:31:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>4</position>
-            <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-06 09:31:20</sys_created_on>
-            <sys_id>8504a159db2653003a915ec0cf961959</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branch_employees" sys_domain="global" view="Default view">4504a159db2653003a915ec0cf961953</sys_ui_section>
-            <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-06 09:31:20</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

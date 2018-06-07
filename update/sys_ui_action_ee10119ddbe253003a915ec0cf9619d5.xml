@@ -8,8 +8,8 @@
         <condition>current.order_status == 'draft'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
-        <form_context_menu>false</form_context_menu>
-        <form_link>false</form_link>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
         <form_style/>
         <hint/>
         <list_action>false</list_action>
@@ -42,7 +42,7 @@ function setRedirect() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ee10119ddbe253003a915ec0cf9619d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Confirm Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -50,7 +50,7 @@ function setRedirect() {
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_ui_action_ee10119ddbe253003a915ec0cf9619d5</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-06 08:04:20</sys_updated_on>
+        <sys_updated_on>2018-06-06 10:44:39</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

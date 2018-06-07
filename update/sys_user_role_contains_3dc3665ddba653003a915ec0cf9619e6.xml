@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_103926_flamin_b.user" name="x_103926_flamin_b.user">934477a4db2213003a915ec0cf9619c0</contains>
+        <role display_value="x_103926_flamin_b.reg_manager" name="x_103926_flamin_b.reg_manager">e42dd259dba653003a915ec0cf961974</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-06 14:09:55</sys_created_on>
+        <sys_id>3dc3665ddba653003a915ec0cf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_103926_flamin_b.user.x_103926_flamin_b.reg_manager</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_user_role_contains_3dc3665ddba653003a915ec0cf9619e6</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-06 14:09:55</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

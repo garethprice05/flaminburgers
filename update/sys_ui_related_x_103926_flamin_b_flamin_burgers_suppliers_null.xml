@@ -3,7 +3,7 @@
     <sys_ui_related sys_domain="global" table="x_103926_flamin_b_flamin_burgers_suppliers" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Flamin' Burgers Suppliers - Default view" name="x_103926_flamin_b_flamin_burgers_suppliers" related_list="NULL" sys_domain="global" view="Default view">dc29c085db6a13003a915ec0cf9619da</list_id>
+            <list_id display_value="FB Suppliers - Default view" name="x_103926_flamin_b_flamin_burgers_suppliers" related_list="NULL" sys_domain="global" view="Default view">dc29c085db6a13003a915ec0cf9619da</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_103926_flamin_b_fb_orderable_items.supplier</related_list>
@@ -16,7 +16,7 @@
             <sys_updated_on>2018-06-05 08:15:46</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Flamin' Burgers Suppliers - Default view</calculated_name>
+            <calculated_name>FB Suppliers - Default view</calculated_name>
             <filter/>
             <name>x_103926_flamin_b_flamin_burgers_suppliers</name>
             <order_by/>

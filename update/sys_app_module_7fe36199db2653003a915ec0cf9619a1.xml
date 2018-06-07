@@ -19,24 +19,24 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_103926_flamin_b.user</roles>
+        <roles>x_103926_flamin_b.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
         <sys_created_on>2018-06-06 09:30:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7fe36199db2653003a915ec0cf9619a1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>FB Branch Employees</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FB Branch Employees - All</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_app_module_7fe36199db2653003a915ec0cf9619a1</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-06 10:25:32</sys_updated_on>
+        <sys_updated_on>2018-06-06 20:38:34</sys_updated_on>
         <timeline_page/>
-        <title>FB Branch Employees</title>
+        <title>FB Branch Employees - All</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

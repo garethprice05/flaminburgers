@@ -14,7 +14,7 @@
         <label>FB Orders</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_103926_flamin_b_fb_orders</name>
-        <number_ref display_value="FBO">67b1793cdb2613003a915ec0cf961925</number_ref>
+        <number_ref display_value="FLA">67b1793cdb2613003a915ec0cf961925</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>

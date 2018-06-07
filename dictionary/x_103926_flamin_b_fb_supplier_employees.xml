@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="FB Supplier Employees" max_length="40" name="x_103926_flamin_b_fb_supplier_employees" type="collection">
+        <element label="Supplier" max_length="32" name="supplier" reference="x_103926_flamin_b_flamin_burgers_suppliers" type="reference"/>
+        <element display="true" label="Supplier Employee" max_length="32" name="supplier_employee" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="supplier"/>
+        </index>
+        <index name="index2">
+            <element name="supplier_employee"/>
+        </index>
+    </element>
+</database>

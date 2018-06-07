@@ -11,7 +11,7 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>true</is_extendable>
-        <label>Flamin' Burgers Suppliers</label>
+        <label>FB Suppliers</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_103926_flamin_b_flamin_burgers_suppliers</name>
         <number_ref display_value="FLS">7744b7a4db2213003a915ec0cf96190f</number_ref>
@@ -24,14 +24,14 @@
         <sys_created_by>admin-gp1</sys_created_by>
         <sys_created_on>2018-06-04 12:06:18</sys_created_on>
         <sys_id>8f44fb64db2213003a915ec0cf9619ac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Flamin' Burgers Suppliers</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FB Suppliers</sys_name>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_db_object_8f44fb64db2213003a915ec0cf9619ac</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-04 12:06:20</sys_updated_on>
+        <sys_updated_on>2018-06-06 21:34:07</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_103926_flamin_b.user" name="x_103926_flamin_b.user">934477a4db2213003a915ec0cf9619c0</user_role>
         <ws_access>true</ws_access>

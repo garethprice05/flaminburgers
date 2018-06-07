@@ -11,21 +11,31 @@
         <name>Get Supplier Details</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
-
- 	var item = g_form.getReference('item_ordered',autoPop);
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var item = g_form.getReference('item_ordered',autoPop);
 	
 	function autoPop(item){
 		g_form.setValue('u_supplier',item.supplier);
-		g_form.setValue('u_delivery_cost',item.delivery_cost);
 		g_form.setValue('u_cost_per_item',item.cost_per_item);
+		var supplier = g_form.getReference('u_supplier',autoPop2);
+		if (g_form.getValue('category') == ""){
+			g_form.setValue('category',item.category);
+		}
 	}
-
 	
 	
-   
+	function autoPop2(supplier){
+		g_form.setValue('u_delivery_cost',supplier.delivery_cost);
+		g_form.addInfoMessage("Supplier and Cost Details added");
+	}
+	
+	
+	
+	
+	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
@@ -33,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f18b8149dbea13003a915ec0cf9619dd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Get Supplier Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -41,7 +51,7 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_client_f18b8149dbea13003a915ec0cf9619dd</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-05 13:15:22</sys_updated_on>
+        <sys_updated_on>2018-06-06 12:42:43</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

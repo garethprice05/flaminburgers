@@ -7,8 +7,8 @@
         <comments/>
         <condition/>
         <form_action>true</form_action>
-        <form_button>false</form_button>
-        <form_context_menu>false</form_context_menu>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
         <form_link>true</form_link>
         <form_style/>
         <hint/>
@@ -36,7 +36,7 @@ action.setRedirectURL(url);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe4e9d85db2e13003a915ec0cf9619e8</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Order This Item</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -44,7 +44,7 @@ action.setRedirectURL(url);
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_ui_action_fe4e9d85db2e13003a915ec0cf9619e8</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-05 14:46:00</sys_updated_on>
+        <sys_updated_on>2018-06-06 10:41:43</sys_updated_on>
         <table>x_103926_flamin_b_fb_orderable_items</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

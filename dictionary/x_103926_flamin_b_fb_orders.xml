@@ -11,7 +11,7 @@
             </choice>
         </element>
         <element label="Date Submitted" max_length="40" name="date_submitted" read_only="true" type="glide_date_time"/>
-        <element label="Item" mandatory="true" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" reference_qual="categorySAMEAScategory^EQ" reference_qual_condition="categorySAMEAScategory^EQ" type="reference"/>
+        <element label="Item" mandatory="true" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" reference_qual="javascript:&quot;category=&quot; + current.category;" type="reference" use_reference_qualifier="advanced"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Order Number" max_length="40" name="order_number" read_only="true" type="string"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Order Placed By" max_length="32" name="order_placed_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="1" default="draft" label="Order Status" max_length="40" name="order_status" read_only="true" type="choice">
