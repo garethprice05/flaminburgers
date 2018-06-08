@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>order_number</element>
+        <name>x_103926_flamin_b_fb_orders</name>
+        <style>background-color:gold;&#13;
+&#13;
+</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-07 16:00:54</sys_created_on>
+        <sys_id>89c684f9dbe213003a915ec0cf961954</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_103926_flamin_b_fb_orders</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_ui_style_89c684f9dbe213003a915ec0cf961954</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-07 16:01:41</sys_updated_on>
+        <value>javascript: current.order_status == "draft"</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=89c684f9dbe213003a915ec0cf961954"/>
+</record_update>

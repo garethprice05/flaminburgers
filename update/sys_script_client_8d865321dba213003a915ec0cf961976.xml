@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_quantity</field>
+        <global>true</global>
+        <messages/>
+        <name>Calculate Total Cost (mobile)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var vat = 0.2; //fixed VAT percentage
+	g_form.setValue('total_cost',calculatedCost().toFixed(2));
+	
+	
+	function calculatedCost(){
+		var quantity = g_form.getValue('u_quantity');
+		var delivery = g_form.getValue('u_delivery_cost');
+		var unitCost = g_form.getValue('u_cost_per_item');
+		var subTotal = parseFloat(quantity)*parseFloat(unitCost); //this is the cost excluding VAT (parseFloat used to convert decimal values to integers)
+		g_form.addInfoMessage(unitCost);
+		return (subTotal+(parseFloat(subTotal)*parseFloat(vat))+parseFloat(delivery)); //calculate the total cost + VAT + Delivery
+		
+	}
+	
+
+	//
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-07 12:30:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d865321dba213003a915ec0cf961976</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Calculate Total Cost (mobile)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_script_client_8d865321dba213003a915ec0cf961976</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-07 12:38:11</sys_updated_on>
+        <table>x_103926_flamin_b_fb_orders</table>
+        <type>onChange</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Place an Order">95e27a6ddb2213003a915ec0cf9619e6</sc_cat_item>
+        <sc_catalog display_value="Flamin Burger Orderable Items">0bf204fcdb2213003a915ec0cf9619a8</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-07 09:55:26</sys_created_on>
+        <sys_id>bf13f66ddb2213003a915ec0cf9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flamin Burger Orderable Items.Place an Order</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_bf13f66ddb2213003a915ec0cf9619c7</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-07 09:55:26</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

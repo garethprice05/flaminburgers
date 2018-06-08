@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="FB Branch Inventory" max_length="40" name="x_103926_flamin_b_branch_inventory" type="collection">
+        <element label="Branch" max_length="32" name="branch" reference="x_103926_flamin_b_fb_branches" type="reference"/>
+        <element label="Inventory Amount (Units)" max_length="40" name="inventory_amount" type="string"/>
+        <element label="Inventory Amount (Packs)" max_length="20" name="inventory_packs" type="decimal"/>
+        <element display="true" label="Item" max_length="32" name="item" reference="x_103926_flamin_b_fb_orderable_items" type="reference"/>
+        <element label="Item Pack Size" max_length="40" name="item_pack_size" type="integer"/>
+        <element default="2" label="Re-order Level (Packs)" max_length="40" name="re_order_level" type="string"/>
+        <index name="index">
+            <element name="item"/>
+        </index>
+        <index name="index2">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>

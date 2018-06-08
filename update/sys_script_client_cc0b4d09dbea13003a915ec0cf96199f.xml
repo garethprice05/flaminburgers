@@ -15,14 +15,18 @@
 		return;
 	}
 	
-	var vat = 0.2; //fixed VAT percentage
-	g_form.setValue('total_cost',calculatedCost().toFixed(2));
+	var vat = 0.2;  //fixed VAT percentage
+	var total = calculatedCost().toFixed(2);
+	g_form.setValue('total_cost',total);
+	if (total >= 12000){
+		g_form.addDecoration('total_cost','icon-alert','Regional Manager Authorisation Required');
+	}
 	
 	
 	function calculatedCost(){
-		var quantity = g_form.getValue('u_quantity');
-		var delivery = g_form.getValue('u_delivery_cost');
-		var unitCost = g_form.getValue('u_cost_per_item');
+		var quantity = g_form.getIntValue('u_quantity');
+		var delivery = g_form.getDecimalValue('u_delivery_cost');
+		var unitCost = g_form.getDecimalValue('u_cost_per_item');
 		var subTotal = parseFloat(quantity)*parseFloat(unitCost); //this is the cost excluding VAT (parseFloat used to convert decimal values to integers)
 		return (subTotal+(parseFloat(subTotal)*parseFloat(vat))+parseFloat(delivery)); //calculate the total cost + VAT
 		
@@ -39,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cc0b4d09dbea13003a915ec0cf96199f</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Calculate Total Cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -47,10 +51,10 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_client_cc0b4d09dbea13003a915ec0cf96199f</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-06 21:13:09</sys_updated_on>
+        <sys_updated_on>2018-06-07 14:28:58</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <type>onChange</type>
-        <ui_type>10</ui_type>
+        <ui_type>0</ui_type>
         <view/>
     </sys_script_client>
 </record_update>

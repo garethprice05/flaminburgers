@@ -191,6 +191,25 @@
             <sys_updated_on>2018-06-05 13:01:35</sys_updated_on>
             <value>10</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_quantity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11</label>
+            <language>en</language>
+            <name>x_103926_flamin_b_fb_orders</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-08 13:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c676c4adb2e13003a915ec0cf96198b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-08 13:02:07</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_quantity</element>
             <name>x_103926_flamin_b_fb_orders</name>

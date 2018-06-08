@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_103926_flamin_b_fb_orders</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_103926_flamin_b_fb_orders">order_statusCHANGESTOreceived^EQ<item endquery="false" field="order_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="received"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>FB - Inventory Control (New Orders)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var branch = current.branch;
+	var item = current.item_ordered;
+	var packSize = getPackSize();
+	var quantityStr = current.u_quantity;
+	var quantityInt = parseInt(quantityStr);
+	var autoStock = branchAutoStock();
+	
+	if (autoStock == true){ //callback value of branch auto stock control
+		var gr = new GlideRecord("x_103926_flamin_b_branch_inventory");
+		gr.addQuery("branch", branch);
+		gr.addQuery("item",item);
+		gr.query();
+		if (gr.next()) { //check to see if the branch already has previously recieved stock for this item
+			var inventoryStr = gr.inventory_amount;
+			var inventoryInt = parseInt(inventoryStr);
+			var newTotal = (quantityInt*packSize) + inventoryInt;
+			gr.inventory_amount = newTotal.toFixed(0); //add the order quantity to the branch inventory
+			gr.update();
+		}
+		else if (!gr.next()){ //insert a record for the ordered item and add the ordered quantity to the inventory
+			gr.initialize();
+			gr.branch = branch;
+			gr.item = item;
+			gr.item_pack_size = packSize;
+			gr.inventory_amount = quantityInt*packSize.toFixed(0);
+			gr.insert();
+			
+		}
+	}
+	// check if branch has enabled auto stock control
+	function branchAutoStock(){
+		var grBranch = new GlideRecord("x_103926_flamin_b_fb_branches");
+		grBranch.get(branch);
+		if (grBranch.auto_stock_control == true){
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	// get the pack size for the item ordered
+	function getPackSize(){
+		var grItem = new GlideRecord("x_103926_flamin_b_fb_orderable_items");
+		grItem.get(item);
+		var size = grItem.getValue('pack_size');
+		return size;
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-08 09:09:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7192b79dbaa13003a915ec0cf961927</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>FB - Inventory Control (New Orders)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_script_c7192b79dbaa13003a915ec0cf961927</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-08 16:11:48</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7192b79dbaa13003a915ec0cf961927"/>
+</record_update>

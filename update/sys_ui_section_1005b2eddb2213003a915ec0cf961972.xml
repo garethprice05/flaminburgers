@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="1005b2eddb2213003a915ec0cf961972" sys_domain="global" table="x_103926_flamin_b_fb_orders" version="3" view="Mobile">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_number</element>
+            <position>0</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>8f75b6eddb2213003a915ec0cf9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>1</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>0375b6eddb2213003a915ec0cf9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_ordered</element>
+            <position>2</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>8375b6eddb2213003a915ec0cf9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quantity</element>
+            <position>3</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>0775b6eddb2213003a915ec0cf9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>branch</element>
+            <position>4</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>8775b6eddb2213003a915ec0cf9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>branch_address</element>
+            <position>5</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>cf75b6eddb2213003a915ec0cf9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_placed_by</element>
+            <position>6</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>4375b6eddb2213003a915ec0cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_status</element>
+            <position>7</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>c375b6eddb2213003a915ec0cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_submitted</element>
+            <position>8</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>4775b6eddb2213003a915ec0cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_per_item</element>
+            <position>9</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>c775b6eddb2213003a915ec0cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_supplier</element>
+            <position>10</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>4b75b6eddb2213003a915ec0cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_delivery_cost</element>
+            <position>11</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>cb75b6eddb2213003a915ec0cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>12</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:05:46</sys_created_on>
+            <sys_id>4f75b6eddb2213003a915ec0cf9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_orders" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">1005b2eddb2213003a915ec0cf961972</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:05:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_103926_flamin_b_fb_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-07 10:03:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1005b2eddb2213003a915ec0cf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_103926_flamin_b_fb_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+            <sys_update_name>sys_ui_section_1005b2eddb2213003a915ec0cf961972</sys_update_name>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-07 10:03:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Mobile" name="Mobile">6c0d7162b92013006517ce7df7ee4673</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

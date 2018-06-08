@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" label="FB Orders" max_length="40" name="x_103926_flamin_b_fb_orders" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" read_only="true" type="boolean"/>
         <element label="Branch" mandatory="true" max_length="32" name="branch" reference="x_103926_flamin_b_fb_branches" type="reference"/>
         <element label="Branch Address" max_length="4000" name="branch_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
@@ -10,18 +11,19 @@
                 <element label="Perishables" value="perishables"/>
             </choice>
         </element>
+        <element label="Date Received" max_length="40" name="date_received" read_only="true" type="glide_date_time"/>
         <element label="Date Submitted" max_length="40" name="date_submitted" read_only="true" type="glide_date_time"/>
         <element label="Item" mandatory="true" max_length="32" name="item_ordered" reference="x_103926_flamin_b_fb_orderable_items" reference_qual="javascript:&quot;category=&quot; + current.category;" type="reference" use_reference_qualifier="advanced"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Order Number" max_length="40" name="order_number" read_only="true" type="string"/>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Order Placed By" max_length="32" name="order_placed_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="1" default="draft" label="Order Status" max_length="40" name="order_status" read_only="true" type="choice">
             <choice>
-                <element label="Cancelled" sequence="0" value="cancelled"/>
-                <element label="Draft" sequence="1" value="draft"/>
-                <element label="Order Received" sequence="2" value="received"/>
-                <element label="Ordered" sequence="3" value="ordered"/>
-                <element label="Out for Delivery" sequence="4" value="delivery"/>
-                <element label="Pending Approval" sequence="5" value="pending"/>
+                <element label="Draft" sequence="0" value="draft"/>
+                <element label="Ordered" sequence="1" value="ordered"/>
+                <element label="Pending Approval" sequence="2" value="pending"/>
+                <element label="Out for Delivery" sequence="3" value="delivery"/>
+                <element label="Order Received" sequence="4" value="received"/>
+                <element label="Cancelled" sequence="5" value="cancelled"/>
             </choice>
         </element>
         <element label="Quantity" max_length="40" name="quantity" type="string"/>
@@ -40,6 +42,7 @@
                 <element label="8" sequence="7" value="8"/>
                 <element label="9" sequence="8" value="9"/>
                 <element label="10" sequence="9" value="10"/>
+                <element label="11" sequence="10" value="11"/>
             </choice>
         </element>
         <element label="Supplier" max_length="32" name="u_supplier" read_only="true" reference="x_103926_flamin_b_flamin_burgers_suppliers" type="reference"/>

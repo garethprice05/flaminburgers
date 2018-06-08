@@ -3,40 +3,57 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_103926_flamin_b.itemUtils</api_name>
+        <api_name>x_103926_flamin_b.flaminUtils</api_name>
         <client_callable>true</client_callable>
         <description/>
-        <name>itemUtils</name>
-        <script><![CDATA[var itemUtils = Class.create();
-itemUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+        <name>flaminUtils</name>
+        <script><![CDATA[var flaminUtils = Class.create();
+flaminUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	
-	getSupplierDetails: function(){
-		gs.log("gp this has been called");
+	getBranchDetails: function(){  //return the user's branch details from the branch employees table
+		var user = this.getParameter('sysparm_user'); //get user sys_id from client script
+		var gr = new GlideRecord("x_103926_flamin_b_fb_branch_employees");
+		gr.addQuery('employee_name',user);
+		gr.query();
+		if (gr.next()){
+		return gr.getValue('branch');
+		}
+	},
+	
+	
+	getItemDetails: function(){ //return an object containing details about the item chosen by the user
 		var item = this.getParameter('sysparm_item');
-		gs.log("gp "+ item);
-		var supplier = {};
-			var gr = new GlideRecord("");
-			gr.get(item);
-			gr.query();
-			supplier.sys_id = gr.supplier;
-		gs.log(" gp "+supplier.sys_id);
-			supplier.cost = gr.delivery_cost;
-			return JSON.stringify(supplier);
-		},
-		
-		type: 'itemUtils'
-	});]]></script>
+		var gr = new GlideRecord("x_103926_flamin_b_fb_orderable_items");
+		gr.get(item);
+		var supplier = gr.getValue('supplier');
+		var cost = gr.getValue('cost_per_item');
+		var category = gr.getValue('category');
+		var grSupplier = new GlideRecord("x_103926_flamin_b_flamin_burgers_suppliers");
+		grSupplier.get(gr.supplier);
+		var delivery = grSupplier.getValue('delivery_cost');
+		var answer = { //build item object from variables populated above
+			supplier:supplier,
+			cost:cost,
+			delivery:delivery,
+			category:category
+		};
+		return JSON.stringify(answer);
+	},
+	
+	
+	type: 'flaminUtils'
+});]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
         <sys_created_on>2018-06-04 19:19:00</sys_created_on>
         <sys_id>9e421978dbe213003a915ec0cf961917</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>itemUtils</sys_name>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>flaminUtils</sys_name>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_include_9e421978dbe213003a915ec0cf961917</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-04 19:45:31</sys_updated_on>
+        <sys_updated_on>2018-06-08 15:53:21</sys_updated_on>
     </sys_script_include>
 </record_update>

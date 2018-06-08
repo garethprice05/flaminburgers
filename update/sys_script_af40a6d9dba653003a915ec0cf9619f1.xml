@@ -16,7 +16,9 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition/>
+        <filter_condition table="x_103926_flamin_b_fb_branches">managerVALCHANGES^EQ<item endquery="false" field="manager" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
         <is_rest>false</is_rest>
         <message/>
         <name>FB - Add Branch Manager user to Group</name>
@@ -58,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af40a6d9dba653003a915ec0cf9619f1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>FB - Add Branch Manager user to Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -66,7 +68,7 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_af40a6d9dba653003a915ec0cf9619f1</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-06 21:34:37</sys_updated_on>
+        <sys_updated_on>2018-06-08 09:32:32</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

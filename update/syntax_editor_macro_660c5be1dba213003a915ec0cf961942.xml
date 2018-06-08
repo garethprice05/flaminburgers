@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments/>
+        <name>varga</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-07 12:58:39</sys_created_on>
+        <sys_id>660c5be1dba213003a915ec0cf961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>varga</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>syntax_editor_macro_660c5be1dba213003a915ec0cf961942</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-07 12:58:39</sys_updated_on>
+        <text>var ga = new GlideAjax("");&#13;
+ga.addParam('sysparm_name','function Name');&#13;
+ga.addParam('sysparm_','parameter1');&#13;
+ga.getXML(ajaxParse);&#13;
+&#13;
+function ajaxParse(response){&#13;
+var answer = response.responseXML.documentElement.getAttribute('answer');&#13;
+}</text>
+    </syntax_editor_macro>
+</record_update>

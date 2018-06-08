@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-06-08 17:40:46">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_overview">1a656051d7030200eaae68150e610399</layout>
+        <order>1</order>
+        <read_roles>x_103926_flamin_b.user</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-08 15:28:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fd84506dbae13003a915ec0cf961908</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Flamin, Burgers Home Page</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_portal_page_2fd84506dbae13003a915ec0cf961908</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-08 15:31:15</sys_updated_on>
+        <title>Flamin, Burgers Home Page</title>
+        <user/>
+        <view>fb_user</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="Flamin, Burgers Home Page">2fd84506dbae13003a915ec0cf961908</page>
+                <summary/>
+                <sys_created_by>admin-gp1</sys_created_by>
+                <sys_created_on>2018-06-08 15:29:38</sys_created_on>
+                <sys_id>09390906dbae13003a915ec0cf9619c5</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin-gp1</sys_updated_by>
+                <sys_updated_on>2018-06-08 15:29:38</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 08/06/2018 16:29:38">09390906dbae13003a915ec0cf9619c5</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-08 15:29:38</sys_created_on>
+                        <sys_id>01390906dbae13003a915ec0cf9619c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-08 15:29:38</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderMenus</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 08/06/2018 16:29:38">09390906dbae13003a915ec0cf9619c5</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-08 15:29:38</sys_created_on>
+                        <sys_id>05390906dbae13003a915ec0cf9619c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-08 15:29:38</sys_updated_on>
+                        <value>Flamin' Burgers</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 08/06/2018 16:29:38">09390906dbae13003a915ec0cf9619c5</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-08 15:29:38</sys_created_on>
+                        <sys_id>89390906dbae13003a915ec0cf9619c5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-08 15:29:38</sys_updated_on>
+                        <value>174477a4db2213003a915ec0cf9619bd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 08/06/2018 16:29:38">09390906dbae13003a915ec0cf9619c5</portal_section>
+                        <sys_created_by>admin-gp1</sys_created_by>
+                        <sys_created_on>2018-06-08 15:29:38</sys_created_on>
+                        <sys_id>89390906dbae13003a915ec0cf9619c6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin-gp1</sys_updated_by>
+                        <sys_updated_on>2018-06-08 15:29:38</sys_updated_on>
+                        <value>2fd84506dbae13003a915ec0cf961908</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

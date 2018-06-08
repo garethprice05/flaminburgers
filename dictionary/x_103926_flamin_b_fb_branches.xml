@@ -2,6 +2,7 @@
 <database>
     <element label="FB Branches" max_length="40" name="x_103926_flamin_b_fb_branches" type="collection">
         <element label="Address" max_length="4000" name="address" type="string"/>
+        <element label="Auto Stock Control" max_length="40" name="auto_stock_control" type="boolean"/>
         <element display="true" label="Branch Name" max_length="40" name="branch_name" type="string"/>
         <element label="Branch Region" max_length="32" name="branch_region" reference="x_103926_flamin_b_fb_regions" type="reference"/>
         <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>

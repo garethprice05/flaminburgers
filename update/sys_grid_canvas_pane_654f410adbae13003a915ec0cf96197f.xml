@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Total Spending">76b50182dbae13003a915ec0cf9619e8</grid_canvas>
+        <height>5</height>
+        <portal_widget display_value="Created 08/06/2018 16:56:10">a14f410adbae13003a915ec0cf96197a</portal_widget>
+        <posx>9</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-08 15:56:10</sys_created_on>
+        <sys_id>654f410adbae13003a915ec0cf96197f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>76b50182dbae13003a915ec0cf9619e8</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_654f410adbae13003a915ec0cf96197f</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-08 15:56:32</sys_updated_on>
+        <width>3</width>
+    </sys_grid_canvas_pane>
+</record_update>

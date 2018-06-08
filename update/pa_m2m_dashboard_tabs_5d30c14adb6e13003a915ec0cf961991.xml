@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Flamin Burgers - Administration">7700414adb6e13003a915ec0cf9619df</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-08 14:50:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d30c14adb6e13003a915ec0cf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7700414adb6e13003a915ec0cf9619df</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_5d30c14adb6e13003a915ec0cf961991</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-08 14:50:20</sys_updated_on>
+        <tab display_value="Branch Details">5d30c14adb6e13003a915ec0cf96198f</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

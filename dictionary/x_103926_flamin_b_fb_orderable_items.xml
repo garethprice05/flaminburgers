@@ -8,9 +8,10 @@
                 <element label="Perishables" value="perishables"/>
             </choice>
         </element>
-        <element label="Cost per Item" max_length="20" name="cost_per_item" type="currency"/>
+        <element label="Cost per Item" mandatory="true" max_length="20" name="cost_per_item" type="currency"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Pack Size" mandatory="true" max_length="40" name="pack_size" type="integer"/>
         <element display="true" label="Product Name" max_length="40" name="product_name" type="string"/>
         <element label="Supplier" max_length="32" name="supplier" reference="x_103926_flamin_b_flamin_burgers_suppliers" type="reference"/>
         <index name="index">

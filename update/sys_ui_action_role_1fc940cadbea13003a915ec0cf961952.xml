@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-08 10:53:54</sys_created_on>
+        <sys_id>1fc940cadbea13003a915ec0cf961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Confirm Order.x_103926_flamin_b.user</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_ui_action display_value="Confirm Order">ee10119ddbe253003a915ec0cf9619d5</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_1fc940cadbea13003a915ec0cf961952</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-08 10:53:54</sys_updated_on>
+        <sys_user_role display_value="x_103926_flamin_b.user" name="x_103926_flamin_b.user">934477a4db2213003a915ec0cf9619c0</sys_user_role>
+    </sys_ui_action_role>
+</record_update>
