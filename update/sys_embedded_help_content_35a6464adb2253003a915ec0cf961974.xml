@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>reporting</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Create a report map</h1>  <div class="body taskbody">  <div class="section context"><span class="ph">Create a map that can be used in a            map hierarchy.</span></div>  <ol class="ol steps" id="sys_report_map-normal__steps_qpr_zzn_1z"><li class="li step">    <span class="ph cmd">Fill in the following fields:</span>    <table class="simpletable choicetable choicetableborder" id="sys_report_map-normal__choicetable_gvr_ksg_c1b"><thead><tr class="sthead chhead"><th id="d545751e35-option">Field</th><th id="d545751e35-desc">Description</th></tr></thead><tbody><tr class="strow chrow"><td id="d545751e48" class="stentry choption"><strong>Key</strong></td><td class="stentry chdesc">Specify a unique key that links this map to other maps. For default maps, the key is       the hc-key value. The key must be included in the geoJSON of the parent map.</td></tr><tr class="strow chrow"><td id="d545751e57" class="stentry choption"><strong>Name</strong></td><td class="stentry chdesc">Enter a name for the map.</td></tr><tr class="strow chrow"><td id="d545751e66" class="stentry choption"><strong>Level</strong></td><td class="stentry chdesc">Specify the level for this map in the map hierarchy.</td></tr><tr class="strow chrow"><td id="d545751e75" class="stentry choption"><strong>JSON definition</strong></td><td class="stentry chdesc">Define the geoJSON for the map. You can download predefined maps from       Highcharts,       or use any map that follows geoJSON       standards.</td></tr><tr class="strow chrow"><td id="d545751e85" class="stentry choption"><strong>Parent</strong></td><td class="stentry chdesc">Select a parent map for this map. <span class="ph" id="sys_report_map-normal__ph_hc2_dzn_1z">Parent-child relationships        define drill levels in a map hierarchy.</span></td></tr><tr class="strow chrow"><td id="d545751e96" class="stentry choption"><strong>Active</strong></td><td class="stentry chdesc">Clear this check box to make the map unavailable when creating map reports.</td></tr><tr class="strow chrow"><td id="d545751e105" class="stentry choption"><strong>Geographical map</strong></td><td class="stentry chdesc">If your map is not geographical, clear this check box. For example, clear this check       box for a floor map.</td></tr></tbody></table>   </li><li class="li step">                <span class="ph cmd">Right-click the form header and select <span class="ph uicontrol">Save</span>.</span>            </li><li class="li step"><strong>Optional: </strong>    <span class="ph cmd">To use conditions to filter the map data, click <span class="ph uicontrol">New</span> in the      <span class="ph uicontrol">Map conditions</span> related list.</span>   </li><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">Update</span> to save the map.</span>            </li></ol> </div>]]></content>
+        <last_sync>2018-06-08 19:58:07</last_sync>
+        <modifier>normal</modifier>
+        <name>sys_report_map-normal</name>
+        <page>sys_report_map</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-08 19:58:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35a6464adb2253003a915ec0cf961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_report_map-normal</sys_name>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>sys_embedded_help_content_35a6464adb2253003a915ec0cf961974</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-08 19:58:07</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=35a6464adb2253003a915ec0cf961974"/>
+</record_update>

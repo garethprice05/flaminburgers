@@ -33,10 +33,10 @@
 	if (!previous){ // when an employee is added to a Flamin' Burger Branch Employees - add the user to the Branch Emplyees Group
 		InsertNewEmployee();
 	}
-	else if (previous) { //if the regional manager changes, remove the previos manager and add the new manager
+	else if (previous) { //if the employee changes, remove the previos employee and add the new one
 		var grDelete = new GlideRecord("sys_user_grmember");
 		grDelete.addQuery("user", previous.employee_name);
-		grDelete.addQuery("group", 'bf392211dbe653003a915ec0cf9619db');
+		grDelete.addQuery("group", 'bf392211dbe653003a915ec0cf9619db'); //sys id for x_103926_flamin_b.employees
 		grDelete.query();
 		if (grDelete.next()) {
 			grDelete.deleteRecord();
@@ -47,7 +47,7 @@
 		var gr = new GlideRecord("sys_user_grmember");
 		gr.initialize();
 		gr.user = current.employee_name;
-		gr.group = 'bf392211dbe653003a915ec0cf9619db'; //sys_id for x_103926_flamin_b.Branch Managers
+		gr.group = 'bf392211dbe653003a915ec0cf9619db'; //sys_id for x_103926_flamin_b.employees
 		gr.insert();
 	}
 	
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b0a9a611dbe653003a915ec0cf96192b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>FB - Add Employees user to Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_b0a9a611dbe653003a915ec0cf96192b</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-06 21:34:51</sys_updated_on>
+        <sys_updated_on>2018-06-16 17:44:07</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

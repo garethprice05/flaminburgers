@@ -21,7 +21,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>FB - Inventory Control (New Orders)</name>
+        <name> FB - Add/Update Inventory</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -32,32 +32,39 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	
-	var branch = current.branch;
-	var item = current.item_ordered;
-	var packSize = getPackSize();
-	var quantityStr = current.u_quantity;
-	var quantityInt = parseInt(quantityStr);
-	var autoStock = branchAutoStock();
+	var branch = current.branch; //get sys_id of branch
+	var item = current.item_ordered; //get sys_id of the ordered item
+	var packSize = getPackSize(); //get the pack size of the ordered item
+	var quantityStr = current.u_quantity; //number of packs ordered
+	var quantityInt = parseInt(quantityStr); //ensure the quantity value is an intiger for calculation
+	var autoStock = branchAutoStock(); //check if the branch allows auto stocking
+	var recordExists = false; //set flag to default false
 	
 	if (autoStock == true){ //callback value of branch auto stock control
 		var gr = new GlideRecord("x_103926_flamin_b_branch_inventory");
 		gr.addQuery("branch", branch);
 		gr.addQuery("item",item);
 		gr.query();
-		if (gr.next()) { //check to see if the branch already has previously recieved stock for this item
+		if (gr.next()) { //if the branch already has a record on the inventory table for this item set the flag to true and update the record with the new inventory amount
+			recordExists = true; 
 			var inventoryStr = gr.inventory_amount;
 			var inventoryInt = parseInt(inventoryStr);
-			var newTotal = (quantityInt*packSize) + inventoryInt;
-			gr.inventory_amount = newTotal.toFixed(0); //add the order quantity to the branch inventory
+			var newTotal = (quantityInt*packSize) + inventoryInt; //calculate the new value for the inventory
+			gr.inventory_amount = newTotal.toFixed(0); //update the inventory 
+			gr.packs_on_order = gr.packs_on_order - quantityInt; //subtract the new quantity from the packs on order field;
+			gs.addInfoMessage("Inventory updated"); //display an info message to the user to confirm the invetory has been updated
 			gr.update();
 		}
-		else if (!gr.next()){ //insert a record for the ordered item and add the ordered quantity to the inventory
-			gr.initialize();
-			gr.branch = branch;
-			gr.item = item;
-			gr.item_pack_size = packSize;
-			gr.inventory_amount = quantityInt*packSize.toFixed(0);
-			gr.insert();
+		if (recordExists == false){ //insert a record for the ordered item and add the ordered quantity to the inventory
+			var grInsert = new GlideRecord("x_103926_flamin_b_branch_inventory");
+			grInsert.initialize();
+			grInsert.branch = branch;
+			grInsert.item = item;
+			grInsert.item_pack_size = packSize;
+			var unitAmount = quantityInt*packSize;
+			grInsert.inventory_amount = unitAmount.toFixed(0);
+			grInsert.insert();
+			gs.addInfoMessage("New item added to inventory"); //display an info message to the user to confirm the item has been added to the inventory
 			
 		}
 	}
@@ -87,15 +94,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7192b79dbaa13003a915ec0cf961927</sys_id>
-        <sys_mod_count>29</sys_mod_count>
-        <sys_name>FB - Inventory Control (New Orders)</sys_name>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name> FB - Add/Update Inventory</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_c7192b79dbaa13003a915ec0cf961927</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-08 16:11:48</sys_updated_on>
+        <sys_updated_on>2018-06-16 19:27:20</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

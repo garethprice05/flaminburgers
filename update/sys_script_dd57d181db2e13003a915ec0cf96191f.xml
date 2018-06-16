@@ -9,7 +9,7 @@
         <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_103926_flamin_b_fb_orders</collection>
@@ -21,7 +21,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>FB - Populate Date Submitted</name>
+        <name>FB - Post order Submission</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -31,9 +31,20 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	
+	//update the inventory packs on order amount
+	var gr = new GlideRecord("x_103926_flamin_b_branch_inventory");
+		gr.addQuery("branch", current.branch);
+		gr.addQuery("item",current.item_ordered);
+		gr.query();
+		if (gr.next()) { //if the branch already has a record on the inventory table for this item, add the ordered quantity to the packs on order
 
-	// Add your code here
-
+			gr.packs_on_order = gr.packs_on_order + current.u_quantity; //add the new order to the packs on order
+			
+			gr.update();
+	
+		}	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
@@ -41,15 +52,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dd57d181db2e13003a915ec0cf96191f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>FB - Populate Date Submitted</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>FB - Post order Submission</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_dd57d181db2e13003a915ec0cf96191f</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-06 21:35:27</sys_updated_on>
+        <sys_updated_on>2018-06-16 19:41:39</sys_updated_on>
         <template>date_submittedSAMEASsys_updated_on^EQ</template>
         <when>before</when>
     </sys_script>

@@ -4,35 +4,45 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>get and populate the item fields on a mobile /service portal view. &#13;
+MOBILE ONLY</description>
         <field>item_ordered</field>
         <global>true</global>
         <messages/>
-        <name>Get Supplier Details (mobile)</name>
+        <name>Get Item Details (mobile)</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
 		return;
 	}
 	
-	var item = g_form.getReference('item_ordered',autoPop);
+		var ga = new GlideAjax("flaminUtils"); //call the flaminUtils Script include
+	ga.addParam('sysparm_name','getItemDetails');
+	ga.addParam('sysparm_item',newValue);
+	ga.getXML(ajaxParse);
 	
-	function autoPop(item){
-		g_form.setValue('u_supplier',item.supplier);
-		g_form.setValue('u_cost_per_item','GBP;'+item.cost_per_item);
-		var supplier = g_form.getReference('u_supplier',autoPop2);
+	function ajaxParse(response){
+		var answer = response.responseXML.documentElement.getAttribute('answer');
+		var obj = JSON.parse(answer);
+		console.dir(obj);
+		g_form.setValue('u_delivery_cost','GBP;'+obj.delivery);
+		g_form.setValue('u_cost_per_item','GBP;'+obj.cost);
+		g_form.setValue('pack_cost','GBP;'+obj.packCost);
+		g_form.setValue('u_supplier',obj.supplier);
+		g_form.addInfoMessage(obj.pack);
+		var pack = obj.pack;
+		g_form.setValue('item_pack_size',obj.pack);
 		if (g_form.getValue('category') == ""){
-			g_form.setValue('category',item.category);
+			g_form.setValue('category',obj.category);
+			g_form.addDecoration('category','icon-activity-circle','Updated from Item');
 		}
+		g_form.addDecoration('u_delivery_cost','icon-activity-circle','Updated from Item');
+		g_form.addDecoration('u_cost_per_item','icon-activity-circle','Updated from Item');
+		g_form.addDecoration('u_supplier','icon-activity-circle','Updated from Item');
+		g_form.addDecoration('pack_cost','icon-activity-circle','Updated from Item');
+		g_form.addDecoration('item_pack_size','icon-activity-circle','Updated from Item');
+	
 	}
-	
-	
-	function autoPop2(supplier){
-		g_form.setValue('u_delivery_cost','GBP;'+supplier.delivery_cost);
-		g_form.addInfoMessage("Supplier and Cost Details added");
-	}
-	
-	
 	
 	
 	
@@ -43,15 +53,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93a1c365db6213003a915ec0cf9619d7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Get Supplier Details (mobile)</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Get Item Details (mobile)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_client_93a1c365db6213003a915ec0cf9619d7</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-07 12:28:57</sys_updated_on>
+        <sys_updated_on>2018-06-16 18:18:32</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <type>onChange</type>
         <ui_type>1</ui_type>

@@ -3,7 +3,7 @@
     <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
         <breakdown display_value="Supplier">7fd705c2dbae13003a915ec0cf961901</breakdown>
         <display>true</display>
-        <indicator display_value="Total Spending">a2b58542dbae13003a915ec0cf96192d</indicator>
+        <indicator display_value="FB Total Spending">a2b58542dbae13003a915ec0cf96192d</indicator>
         <order/>
         <sql_statement/>
         <sys_class_name>pa_indicator_breakdowns</sys_class_name>

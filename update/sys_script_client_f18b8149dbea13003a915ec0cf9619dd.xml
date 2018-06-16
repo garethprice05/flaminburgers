@@ -4,36 +4,45 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>get and populate the details of the ordered item when it changes on the order form. &#13;
+DESKTOP ONLY</description>
         <field>item_ordered</field>
         <global>true</global>
         <messages/>
-        <name>Get Supplier Details</name>
+        <name>Get Item Details</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
 		return;
 	}
 	
-	var ga = new GlideAjax("flaminUtils");
-	ga.addParam('sysparm_name','getItemDetails');
-	ga.addParam('sysparm_item',newValue);
+	var ga = new GlideAjax("flaminUtils"); //call the flaminUtils script include
+	ga.addParam('sysparm_name','getItemDetails'); 
+	ga.addParam('sysparm_item',newValue);//pass the sys id of the ordered item
 	ga.getXML(ajaxParse);
 	
 	function ajaxParse(response){
 		var answer = response.responseXML.documentElement.getAttribute('answer');
-		var obj = JSON.parse(answer);
-		console.dir(obj);
+		var obj = JSON.parse(answer); //create a JSON object from the script include response
+		console.dir(obj); //log the object to the console (debugging)
+		// populate the order form fields with the item details
 		g_form.setValue('u_delivery_cost',obj.delivery);
 		g_form.setValue('u_cost_per_item',obj.cost);
+		g_form.setValue('pack_cost',obj.packCost);
 		g_form.setValue('u_supplier',obj.supplier);
-		if (g_form.getValue('category') == ""){
+		g_form.setValue('item_pack_size',obj.pack);
+		if (g_form.getValue('category') == ""){//populate the category field from the item if it is empty
 			g_form.setValue('category',obj.category);
+			g_form.addDecoration('category','icon-activity-circle','Updated from Item');
 		}
+		// add decorations to the order form to show the fields have been updated
 		g_form.addDecoration('u_delivery_cost','icon-activity-circle','Updated from Item');
 		g_form.addDecoration('u_cost_per_item','icon-activity-circle','Updated from Item');
 		g_form.addDecoration('u_supplier','icon-activity-circle','Updated from Item');
-		if (g_form.getIntValue('u_quantity')){
+		g_form.addDecoration('pack_cost','icon-activity-circle','Updated from Item');
+		g_form.addDecoration('item_pack_size','icon-activity-circle','Updated from Item');
+		//if the quantity field has already been update then calculate the total cost
+		if (g_form.getIntValue('u_quantity')){ 
 			calculateTotal();
 		}
 		function calculateTotal(){
@@ -43,11 +52,15 @@
 			if (total >= 12000){
 				g_form.addDecoration('total_cost','icon-alert','Regional Manager Authorisation Required');
 			}
+			if (total < 12000){
+				g_form.addDecoration('total_cost','icon-check-circle','Standard Authorisation Required');
+			}
+			
 			
 			function calculatedCost(){
 				var quantity = g_form.getIntValue('u_quantity');
 				var delivery = g_form.getDecimalValue('u_delivery_cost');
-				var unitCost = g_form.getDecimalValue('u_cost_per_item');
+				var unitCost = g_form.getDecimalValue('pack_cost');
 				var subTotal = parseFloat(quantity)*parseFloat(unitCost); //this is the cost excluding VAT (parseFloat used to convert decimal values to integers)
 				return (subTotal+(parseFloat(subTotal)*parseFloat(vat))+parseFloat(delivery)); //calculate the total cost + VAT
 				
@@ -61,15 +74,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f18b8149dbea13003a915ec0cf9619dd</sys_id>
-        <sys_mod_count>59</sys_mod_count>
-        <sys_name>Get Supplier Details</sys_name>
+        <sys_mod_count>71</sys_mod_count>
+        <sys_name>Get Item Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_client_f18b8149dbea13003a915ec0cf9619dd</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-07 14:27:33</sys_updated_on>
+        <sys_updated_on>2018-06-16 18:17:24</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="order_approved" label="Order Approved" language="en" table="x_103926_flamin_b_fb_orders">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>order_approved</element>
+            <help/>
+            <hint/>
+            <label>Order Approved</label>
+            <language>en</language>
+            <name>x_103926_flamin_b_fb_orders</name>
+            <plural>Order Approved</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-16 21:27:19</sys_created_on>
+            <sys_id>dac72f64dbb213003a915ec0cf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Order Approved</sys_name>
+            <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+            <sys_update_name>sys_documentation_x_103926_flamin_b_fb_orders_order_approved_en</sys_update_name>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-16 21:27:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

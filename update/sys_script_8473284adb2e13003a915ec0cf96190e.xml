@@ -20,7 +20,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>FB - Re-order Stock</name>
-        <order>100</order>
+        <order>300</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -29,56 +29,65 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//script auto orders stock when the inventory levels drop below the re-order levels
 	
-	//check stock levels
-	var needsMoreStock = checkStockLevels();
-	var quantityRequired = parseInt(current.re_order_level)-parseInt(current.inventory_packs);
-	var item = getItemObject();
+	var needsMoreStock = checkStockLevels(); 
+	var pendingStock = parseInt(current.inventory_packs)-parseInt(current.packs_on_order);
+	var quantityRequired = parseInt(current.re_order_level)-pendingStock; //new order quantity = re-order level - current inventory 
+	var item = getItemObject(); 
 	var branch = getBranchObject();
 	var supplier = getSupplierObject();
 	var totalCost = calculateCost();
 	
-	if (needsMoreStock){
+	if (needsMoreStock){//create a new order for the quantity required if the branch needs more stock
 		var gr = new GlideRecord("x_103926_flamin_b_fb_orders");
 		gr.initialize();
-		gr.category = item.category;
+		gr.category = item.category; 
 		gr.item_ordered = current.item;
 		gr.u_quantity = quantityRequired;
 		gr.branch = current.branch;
 		gr.branch_address = branch.address;
 		gr.order_status = 'pending';
 		gr.u_cost_per_item = item.cost_per_item;
+		gr.item_pack_size = item.pack_size;
+		gr.pack_cost = item.cost_per_pack;
 		gr.u_supplier = supplier.sys_id;
 		gr.u_delivery_cost = supplier.delivery_cost;
 		gr.total_cost = totalCost;
 		gr.insert();
+		//add the new order to the packs on order total;
+		current.packs_on_order = current.packs_on_order + quantityRequired;
+		current.update();
 	}
 	
-	function getItemObject(){
+	function getItemObject(){ //get the ordered item object
 		var grItem = new GlideRecord("x_103926_flamin_b_fb_orderable_items");
 		grItem.get(current.item);
 		return grItem;
 	}
 	
-	function getBranchObject(){
+	function getBranchObject(){ //get the ordering branch object
 		var grBranch = new GlideRecord("x_103926_flamin_b_fb_branches");
 		grBranch.get(current.branch);
 		return grBranch;
 	}
-	function getSupplierObject(){
+	function getSupplierObject(){ //get the ordered item supplier object
 		var grSup = new GlideRecord("x_103926_flamin_b_flamin_burgers_suppliers");
 		grSup.get(item.supplier);
 		return grSup;
 	}
-	function calculateCost(){
+	function calculateCost(){ //calculate the total cost of the new order
 		var vat = 0.2;
 		var delivery = supplier.delivery_cost;
-		var unitCost = item.cost_per_item;
+		var unitCost = item.cost_per_pack;
 		var subTotal = parseFloat(quantityRequired)*parseFloat(unitCost); //this is the cost excluding VAT (parseFloat used to convert decimal values to integers)
 		return (subTotal+(subTotal*vat)+parseFloat(delivery)); //calculate the total cost + VAT
 	}
-	function checkStockLevels(){
-		if (current.inventory_packs<current.re_order_level){
+	function checkStockLevels(){ //check the branch's inventory stock levels
+		var currentStock = current.inventory_packs;
+		var packsOnOrder = current.packs_on_order;
+		var PI = currentStock + packsOnOrder;
+		if ((PI<=current.re_order_level)){
 			return true;
 		}
 		else {
@@ -93,7 +102,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8473284adb2e13003a915ec0cf96190e</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>FB - Re-order Stock</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -101,9 +110,9 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_8473284adb2e13003a915ec0cf96190e</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-08 14:11:49</sys_updated_on>
+        <sys_updated_on>2018-06-16 20:14:06</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=8473284adb2e13003a915ec0cf96190e"/>
 </record_update>

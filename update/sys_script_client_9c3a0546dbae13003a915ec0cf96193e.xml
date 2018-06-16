@@ -4,7 +4,7 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>auto populate the logged in user's branch</description>
         <field>active</field>
         <global>true</global>
         <messages/>
@@ -12,13 +12,13 @@
         <order/>
         <script><![CDATA[function onLoad() {
 	var user = g_user.userID; //get user sys_id
-	
+	if (g_form.isNewRecord()){
 	//call flaminUtils script include to get the user's branch
 	var ga = new GlideAjax("flaminUtils");
 	ga.addParam('sysparm_name','getBranchDetails');
 	ga.addParam('sysparm_user',user);
 	ga.getXML(ajaxParse);
-	
+	}
 	function ajaxParse(response){
 		var answer = response.responseXML.documentElement.getAttribute('answer'); //answer = branch sys_id
 		g_form.setValue('branch',answer);
@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c3a0546dbae13003a915ec0cf96193e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Get User Store Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -40,10 +40,10 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_client_9c3a0546dbae13003a915ec0cf96193e</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-08 15:50:57</sys_updated_on>
+        <sys_updated_on>2018-06-16 18:19:12</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <type>onLoad</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>

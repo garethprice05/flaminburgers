@@ -19,7 +19,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>BB - Calculate Pack Size</name>
+        <name>FB - Calculate Pack Size</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,14 +30,17 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	
-	current.inventory_packs = current.inventory_amount/getPackSize();
+	//script to ensure the item pack size and the cost per item exist on every inventory item
+	var item = getItem();
+	current.inventory_packs = current.inventory_amount/item.pack_size;
+	current.inventory_value = current.inventory_amount*item.cost_per_item;
 	current.update();
 	
 	
-	function getPackSize(){
+	function getItem(){
 	var gr = new GlideRecord("x_103926_flamin_b_fb_orderable_items");
 	gr.get(current.item);
-	return gr.getValue('pack_size');
+	return gr;
 	}
 	
 	
@@ -48,15 +51,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>64ff5cc6db2e13003a915ec0cf9619fa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>BB - Calculate Pack Size</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>FB - Calculate Pack Size</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_64ff5cc6db2e13003a915ec0cf9619fa</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-08 12:45:09</sys_updated_on>
+        <sys_updated_on>2018-06-16 19:04:24</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

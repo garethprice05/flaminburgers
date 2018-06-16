@@ -4,7 +4,8 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>caclulate the total cost of an order based on the user selected quantity, item cost details, supplier delivery cost and VAT&#13;
+DESKTOP ONLY</description>
         <field>u_quantity</field>
         <global>true</global>
         <messages/>
@@ -14,28 +15,29 @@
 	if (isLoading || newValue === '') {
 		return;
 	}
-	
+	g_form.hideAllFieldMsgs('error');
 	var vat = 0.2;  //fixed VAT percentage
 	var total = calculatedCost().toFixed(2);
 	g_form.setValue('total_cost',total);
-	if (total >= 12000){
+	if (total >= 12000){ //alert the user if the total cost is over £12000
+		g_form.showFieldMsg('total_cost','Orders over £12000 require authorisation from the Regional Manager','error');
+		g_form.removeDecoration('total_cost','icon-check-circle','Standard Authorisation Required');
 		g_form.addDecoration('total_cost','icon-alert','Regional Manager Authorisation Required');
+	}
+	if (total < 12000){
+		g_form.removeDecoration('total_cost','icon-alert','Regional Manager Authorisation Required');
+		g_form.addDecoration('total_cost','icon-check-circle','Standard Authorisation Required');
 	}
 	
 	
-	function calculatedCost(){
+	function calculatedCost(){ //calculate the total cost
 		var quantity = g_form.getIntValue('u_quantity');
 		var delivery = g_form.getDecimalValue('u_delivery_cost');
-		var unitCost = g_form.getDecimalValue('u_cost_per_item');
+		var unitCost = g_form.getDecimalValue('pack_cost');
 		var subTotal = parseFloat(quantity)*parseFloat(unitCost); //this is the cost excluding VAT (parseFloat used to convert decimal values to integers)
 		return (subTotal+(parseFloat(subTotal)*parseFloat(vat))+parseFloat(delivery)); //calculate the total cost + VAT
 		
 	}
-	
-
-	//
-	
-	
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
@@ -43,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cc0b4d09dbea13003a915ec0cf96199f</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Calculate Total Cost</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -51,7 +53,7 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_client_cc0b4d09dbea13003a915ec0cf96199f</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-07 14:28:58</sys_updated_on>
+        <sys_updated_on>2018-06-16 18:29:01</sys_updated_on>
         <table>x_103926_flamin_b_fb_orders</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

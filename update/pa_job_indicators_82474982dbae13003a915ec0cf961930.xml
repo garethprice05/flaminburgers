@@ -4,8 +4,8 @@
         <active>true</active>
         <collect>2</collect>
         <collect_indicator>true</collect_indicator>
-        <display>temporary job for collecting Item - FB - Number of New Orders</display>
-        <indicator display_value="FB - Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
+        <display>temporary job for collecting Item - FB Number of New Orders</display>
+        <indicator display_value="FB Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
         <job display_value="temporary job for collecting Item">42474982dbae13003a915ec0cf96192b</job>
         <sys_class_name>pa_job_indicators</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>

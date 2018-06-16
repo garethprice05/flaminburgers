@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="pa_job_indicator_breakdown_ex">
     <pa_job_indicator_breakdown_ex action="INSERT_OR_UPDATE">
         <breakdown display_value="Branch">6ea141cadb6e13003a915ec0cf9619dd</breakdown>
-        <job_indicator display_value="temporary job for collecting Item - Total Spending">0a474982dbae13003a915ec0cf96192b</job_indicator>
+        <job_indicator display_value="temporary job for collecting Item - FB Total Spending">0a474982dbae13003a915ec0cf96192b</job_indicator>
         <sys_class_name>pa_job_indicator_breakdown_ex</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
         <sys_created_on>2018-06-08 15:21:14</sys_created_on>

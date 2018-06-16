@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>2</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>temporary job for collecting Item - FB Inventory Tracking</display>
+        <indicator display_value="FB Inventory Tracking">17287d02db2253003a915ec0cf961935</indicator>
+        <job display_value="temporary job for collecting Item">6d19f182db2253003a915ec0cf961917</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-08 18:58:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2519f182db2253003a915ec0cf961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory Tracking.temporary job for collecting Item</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>pa_job_indicators_2519f182db2253003a915ec0cf961918</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-08 18:58:51</sys_updated_on>
+    </pa_job_indicators>
+</record_update>

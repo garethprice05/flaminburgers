@@ -3,78 +3,108 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_103926_flamin_b_branch_inventory" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>item</element>
-            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c998b046db6e13003a915ec0cf961938</list_id>
+            <element>inventory_amount</element>
+            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">559b5f6cdb7213003a915ec0cf961942</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 14:17:00</sys_created_on>
-            <sys_id>4598b046db6e13003a915ec0cf961939</sys_id>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
+            <sys_id>dd9b5f6cdb7213003a915ec0cf961942</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 14:17:00</sys_updated_on>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>branch</element>
-            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c998b046db6e13003a915ec0cf961938</list_id>
+            <element>item</element>
+            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">559b5f6cdb7213003a915ec0cf961942</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 14:17:00</sys_created_on>
-            <sys_id>c998b046db6e13003a915ec0cf961939</sys_id>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
+            <sys_id>559b5f6cdb7213003a915ec0cf961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 14:17:00</sys_updated_on>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>inventory_amount</element>
-            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c998b046db6e13003a915ec0cf961938</list_id>
+            <element>branch</element>
+            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">559b5f6cdb7213003a915ec0cf961942</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 14:17:00</sys_created_on>
-            <sys_id>4d98b046db6e13003a915ec0cf961939</sys_id>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
+            <sys_id>d59b5f6cdb7213003a915ec0cf961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 14:17:00</sys_updated_on>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>inventory_packs</element>
-            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c998b046db6e13003a915ec0cf961938</list_id>
+            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">559b5f6cdb7213003a915ec0cf961942</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 14:17:00</sys_created_on>
-            <sys_id>cd98b046db6e13003a915ec0cf961939</sys_id>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
+            <sys_id>599b5f6cdb7213003a915ec0cf961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 14:17:00</sys_updated_on>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>re_order_level</element>
-            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c998b046db6e13003a915ec0cf961938</list_id>
+            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">559b5f6cdb7213003a915ec0cf961942</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 14:17:00</sys_created_on>
-            <sys_id>4198b046db6e13003a915ec0cf96193a</sys_id>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
+            <sys_id>d99b5f6cdb7213003a915ec0cf961943</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 14:17:00</sys_updated_on>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inventory_value</element>
+            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">559b5f6cdb7213003a915ec0cf961942</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
+            <sys_id>5d9b5f6cdb7213003a915ec0cf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>packs_on_order</element>
+            <list_id display_value="x_103926_flamin_b_branch_inventory" element="NULL" name="x_103926_flamin_b_branch_inventory" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">559b5f6cdb7213003a915ec0cf961942</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
+            <sys_id>dd9b5f6cdb7213003a915ec0cf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -88,10 +118,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 14:17:00</sys_created_on>
+            <sys_created_on>2018-06-16 20:34:00</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c998b046db6e13003a915ec0cf961938</sys_id>
+            <sys_id>559b5f6cdb7213003a915ec0cf961942</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_103926_flamin_b_branch_inventory</sys_name>
             <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -99,7 +129,7 @@
             <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
             <sys_update_name>sys_ui_list_x_103926_flamin_b_branch_inventory_null</sys_update_name>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 14:17:00</sys_updated_on>
+            <sys_updated_on>2018-06-16 20:34:00</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

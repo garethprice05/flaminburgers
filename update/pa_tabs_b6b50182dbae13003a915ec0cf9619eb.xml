@@ -2,22 +2,22 @@
 <record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA Total Spending">76b50182dbae13003a915ec0cf9619e8</canvas_page>
-        <name>Total Spending</name>
-        <page display_value="PA Total Spending">3ab50182dbae13003a915ec0cf9619e3</page>
+        <name>Supplier Statistics</name>
+        <page display_value="PA Supplier Statistics">3ab50182dbae13003a915ec0cf9619e3</page>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
         <sys_created_on>2018-06-08 15:14:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6b50182dbae13003a915ec0cf9619eb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Total Spending</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Supplier Statistics</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy/>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>pa_tabs_b6b50182dbae13003a915ec0cf9619eb</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-08 15:14:28</sys_updated_on>
+        <sys_updated_on>2018-06-16 21:09:52</sys_updated_on>
     </pa_tabs>
 </record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_indicators">
+    <pa_indicators action="INSERT_OR_UPDATE">
+        <aggregate>2</aggregate>
+        <benchmarking>false</benchmarking>
+        <collect_breakdown_matrix>true</collect_breakdown_matrix>
+        <collect_records>true</collect_records>
+        <conditions/>
+        <contributor/>
+        <cube display_value="flamin.new.orders">5d314d0edb6e13003a915ec0cf9619e4</cube>
+        <data_source/>
+        <default_aggregate/>
+        <default_chart_type>line</default_chart_type>
+        <description>Cost of New Orders is measured daily as unit £.
+The goal for this indicator is not set.
+It is the sum on data source flamin.new.orders, which is using the table: 
+x_103926_flamin_b_fb_orders
+with the following conditions:
+Created on Today</description>
+        <direction>1</direction>
+        <display>false</display>
+        <field>total_cost</field>
+        <forecast_base_periods>2</forecast_base_periods>
+        <forecast_base_start>00000000</forecast_base_start>
+        <forecast_base_type>1</forecast_base_type>
+        <forecast_method>1</forecast_method>
+        <forecast_periods>2</forecast_periods>
+        <formula/>
+        <formula_aggregate_whole>false</formula_aggregate_whole>
+        <frequency>10</frequency>
+        <groups/>
+        <has_managed_indicators>false</has_managed_indicators>
+        <id>104</id>
+        <key>false</key>
+        <label/>
+        <linked_indicator/>
+        <live_group_profile/>
+        <managed_breakdown/>
+        <managed_element/>
+        <managing_indicator/>
+        <name>FB Cost of New Orders</name>
+        <order/>
+        <override_periods>false</override_periods>
+        <precision>0</precision>
+        <related_breakdowns>3</related_breakdowns>
+        <related_jobs>3</related_jobs>
+        <render_continuous_lines>false</render_continuous_lines>
+        <role_override>true</role_override>
+        <roles/>
+        <score_periods>-1</score_periods>
+        <scores_modified_at>2018-06-16 21:22:26</scores_modified_at>
+        <script/>
+        <scripted>false</scripted>
+        <show_delta>true</show_delta>
+        <show_realtime_score>false</show_realtime_score>
+        <snapshot_periods>-1</snapshot_periods>
+        <sql_statement/>
+        <sys_class_name>pa_indicators</sys_class_name>
+        <sys_created_by>admin-gp1</sys_created_by>
+        <sys_created_on>2018-06-08 21:20:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1999a46db6253003a915ec0cf96193d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>FB Cost of New Orders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
+        <sys_update_name>pa_indicators_b1999a46db6253003a915ec0cf96193d</sys_update_name>
+        <sys_updated_by>admin-gp1</sys_updated_by>
+        <sys_updated_on>2018-06-16 21:19:31</sys_updated_on>
+        <type>1</type>
+        <unit display_value="£">3c64a5e2d7320100ba986f14ce610345</unit>
+        <users/>
+        <value_when_nil>0</value_when_nil>
+        <visible_to>2</visible_to>
+    </pa_indicators>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1999a46db6253003a915ec0cf96193d"/>
+</record_update>

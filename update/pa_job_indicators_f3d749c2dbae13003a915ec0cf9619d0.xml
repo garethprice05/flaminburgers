@@ -4,8 +4,8 @@
         <active>true</active>
         <collect>2</collect>
         <collect_indicator>true</collect_indicator>
-        <display>temporary job for collecting Supplier - Total Spending</display>
-        <indicator display_value="Total Spending">a2b58542dbae13003a915ec0cf96192d</indicator>
+        <display>temporary job for collecting Supplier - FB Total Spending</display>
+        <indicator display_value="FB Total Spending">a2b58542dbae13003a915ec0cf96192d</indicator>
         <job display_value="temporary job for collecting Supplier">3fd749c2dbae13003a915ec0cf9619cf</job>
         <sys_class_name>pa_job_indicators</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>

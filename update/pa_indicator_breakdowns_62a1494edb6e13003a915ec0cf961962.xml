@@ -3,7 +3,7 @@
     <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
         <breakdown display_value="Branch">6ea141cadb6e13003a915ec0cf9619dd</breakdown>
         <display>true</display>
-        <indicator display_value="FB - Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
+        <indicator display_value="FB Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
         <order/>
         <sql_statement/>
         <sys_class_name>pa_indicator_breakdowns</sys_class_name>

@@ -5,13 +5,13 @@
             <element>branch_name</element>
             <position>0</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>3909a779dbaa13003a915ec0cf9619e8</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>a8286fabdb2213003a915ec0cf961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>b909a779dbaa13003a915ec0cf9619e8</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>ec28e32fdb2213003a915ec0cf9619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>branch_region</element>
             <position>2</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>3d09a779dbaa13003a915ec0cf9619e8</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>6028e32fdb2213003a915ec0cf9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>bd09a779dbaa13003a915ec0cf9619e8</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>e028e32fdb2213003a915ec0cf9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>address</element>
             <position>4</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>3109a779dbaa13003a915ec0cf9619e9</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>6428e32fdb2213003a915ec0cf9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>.begin_split</element>
             <position>5</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>b109a779dbaa13003a915ec0cf9619e9</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>e428e32fdb2213003a915ec0cf9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -89,41 +89,69 @@
             <element>manager</element>
             <position>6</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>3509a779dbaa13003a915ec0cf9619e9</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>6828e32fdb2213003a915ec0cf9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>auto_stock_control</element>
+            <position>7</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>e828e32fdb2213003a915ec0cf9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>b509a779dbaa13003a915ec0cf9619e9</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>6c28e32fdb2213003a915ec0cf9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>phone_number</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin-gp1</sys_created_by>
-            <sys_created_on>2018-06-08 08:29:27</sys_created_on>
-            <sys_id>3909a779dbaa13003a915ec0cf9619e9</sys_id>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>ec28e32fdb2213003a915ec0cf9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
             <sys_updated_by>admin-gp1</sys_updated_by>
-            <sys_updated_on>2018-06-08 08:29:27</sys_updated_on>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>10</position>
+            <sys_created_by>admin-gp1</sys_created_by>
+            <sys_created_on>2018-06-13 18:54:54</sys_created_on>
+            <sys_id>6028e32fdb2213003a915ec0cf9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_103926_flamin_b_fb_branches" sys_domain="global" view="Default view">6aaf65f8db2613003a915ec0cf9619c8</sys_ui_section>
+            <sys_updated_by>admin-gp1</sys_updated_by>
+            <sys_updated_on>2018-06-13 18:54:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

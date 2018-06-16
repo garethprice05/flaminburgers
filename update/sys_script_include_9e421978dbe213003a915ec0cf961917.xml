@@ -5,7 +5,7 @@
         <active>true</active>
         <api_name>x_103926_flamin_b.flaminUtils</api_name>
         <client_callable>true</client_callable>
-        <description/>
+        <description>utility script for the flamin' burgers application</description>
         <name>flaminUtils</name>
         <script><![CDATA[var flaminUtils = Class.create();
 flaminUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
@@ -21,23 +21,27 @@ flaminUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	},
 	
 	
-	getItemDetails: function(){ //return an object containing details about the item chosen by the user
+	getItemDetails: function(){ //return an object containing details about the item chosen by the user when placing a new order
 		var item = this.getParameter('sysparm_item');
 		var gr = new GlideRecord("x_103926_flamin_b_fb_orderable_items");
 		gr.get(item);
-		var supplier = gr.getValue('supplier');
-		var cost = gr.getValue('cost_per_item');
-		var category = gr.getValue('category');
+		var supplier = gr.getValue('supplier');// supplier sys_id
+		var cost = gr.getValue('cost_per_item'); // item cost
+		var category = gr.getValue('category'); //category
+		var pack = gr.getValue('pack_size'); //pack size
+		var packCost = gr.getValue('cost_per_pack'); //pack cost
 		var grSupplier = new GlideRecord("x_103926_flamin_b_flamin_burgers_suppliers");
 		grSupplier.get(gr.supplier);
-		var delivery = grSupplier.getValue('delivery_cost');
+		var delivery = grSupplier.getValue('delivery_cost'); //supplier delivery cost
 		var answer = { //build item object from variables populated above
 			supplier:supplier,
 			cost:cost,
 			delivery:delivery,
-			category:category
+			category:category,
+			pack:pack,
+			packCost: packCost
 		};
-		return JSON.stringify(answer);
+		return JSON.stringify(answer); //stringify and return the object  
 	},
 	
 	
@@ -47,13 +51,13 @@ flaminUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin-gp1</sys_created_by>
         <sys_created_on>2018-06-04 19:19:00</sys_created_on>
         <sys_id>9e421978dbe213003a915ec0cf961917</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>flaminUtils</sys_name>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>sys_script_include_9e421978dbe213003a915ec0cf961917</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-08 15:53:21</sys_updated_on>
+        <sys_updated_on>2018-06-16 17:56:10</sys_updated_on>
     </sys_script_include>
 </record_update>

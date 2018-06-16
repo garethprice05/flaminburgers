@@ -47,7 +47,7 @@
         <include_target>false</include_target>
         <include_thresholds>false</include_thresholds>
         <include_trend>false</include_trend>
-        <indicator display_value="FB - Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
+        <indicator display_value="FB Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
         <is_compare_chart>false</is_compare_chart>
         <lastscore_compare>previous_score</lastscore_compare>
         <lastscore_periods_back/>
@@ -58,21 +58,21 @@
         <name>Number of New Orders</name>
         <number_of_records>5</number_of_records>
         <percentages>no_percentages</percentages>
-        <period>3m</period>
+        <period>7d</period>
         <pivot_breakdown/>
         <pivot_elements_filter/>
         <related_dashboards>1</related_dashboards>
         <scorecard_options>all</scorecard_options>
         <show_bar>false</show_bar>
         <show_breakdown_selector>true</show_breakdown_selector>
-        <show_data_labels>true</show_data_labels>
+        <show_data_labels>false</show_data_labels>
         <show_empty_elements>true</show_empty_elements>
         <show_legend>true</show_legend>
         <show_range_selector>false</show_range_selector>
         <show_top_x>10</show_top_x>
         <show_total>false</show_total>
         <show_visualization_selector>true</show_visualization_selector>
-        <sort_direction>asc</sort_direction>
+        <sort_direction>desc</sort_direction>
         <sort_on>value</sort_on>
         <sys_class_name>pa_widgets</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>
@@ -80,7 +80,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c52c98edb6e13003a915ec0cf961900</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Number of New Orders</sys_name>
         <sys_overrides/>
         <sys_package display_value="Flamin' Burgers" source="x_103926_flamin_b">4f44fb64db2213003a915ec0cf9619ac</sys_package>
@@ -88,13 +88,13 @@
         <sys_scope display_value="Flamin' Burgers">4f44fb64db2213003a915ec0cf9619ac</sys_scope>
         <sys_update_name>pa_widgets_0c52c98edb6e13003a915ec0cf961900</sys_update_name>
         <sys_updated_by>admin-gp1</sys_updated_by>
-        <sys_updated_on>2018-06-08 15:59:37</sys_updated_on>
+        <sys_updated_on>2018-06-16 21:07:55</sys_updated_on>
         <tag/>
         <template>template1</template>
         <treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color>
         <treemap_min_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</treemap_min_color>
         <type>breakdown</type>
-        <visualization>line</visualization>
+        <visualization>scorecard</visualization>
         <words_in_trendline>5</words_in_trendline>
         <yaxis2_from/>
         <yaxis2_title/>

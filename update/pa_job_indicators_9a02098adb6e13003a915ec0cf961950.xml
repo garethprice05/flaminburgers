@@ -4,8 +4,8 @@
         <active>true</active>
         <collect>1</collect>
         <collect_indicator>true</collect_indicator>
-        <display>[PA Flamin] Daily Data Collection - FB - Number of New Orders</display>
-        <indicator display_value="FB - Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
+        <display>[PA Flamin] Daily Data Collection - FB Number of New Orders</display>
+        <indicator display_value="FB Number of New Orders">ba21c90edb6e13003a915ec0cf9619df</indicator>
         <job display_value="[PA Flamin] Daily Data Collection">5be1418edb6e13003a915ec0cf961954</job>
         <sys_class_name>pa_job_indicators</sys_class_name>
         <sys_created_by>admin-gp1</sys_created_by>

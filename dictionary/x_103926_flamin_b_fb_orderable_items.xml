@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="FB Orderable Items" max_length="40" name="x_103926_flamin_b_fb_orderable_items" type="collection">
-        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
             <choice>
-                <element label="Cleaning Products" value="cleaning"/>
-                <element label="Packaging" value="packaging"/>
-                <element label="Perishables" value="perishables"/>
+                <element label="Bakery" value="bakery"/>
+                <element label="Dairy" value="dairy"/>
+                <element label="Drink Cartons" value="drink_cartons"/>
+                <element label="Floor Cleaning" value="floor"/>
+                <element label="Food Cartons" value="food_cartons"/>
+                <element label="Food Prep" value="prep"/>
+                <element label="Fresh Meats" value="meats"/>
+                <element label="Soft Drinks" value="drinks"/>
             </choice>
         </element>
-        <element label="Cost per Item" mandatory="true" max_length="20" name="cost_per_item" type="currency"/>
+        <element default="0.00" label="Cost per Item" max_length="20" name="cost_per_item" read_only="true" type="currency"/>
+        <element default="0.00" label="Cost Per Pack" mandatory="true" max_length="20" name="cost_per_pack" type="currency"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
         <element label="Pack Size" mandatory="true" max_length="40" name="pack_size" type="integer"/>
-        <element display="true" label="Product Name" max_length="40" name="product_name" type="string"/>
-        <element label="Supplier" max_length="32" name="supplier" reference="x_103926_flamin_b_flamin_burgers_suppliers" type="reference"/>
+        <element display="true" label="Product Name" mandatory="true" max_length="40" name="product_name" type="string"/>
+        <element choice="1" label="Sub Category" max_length="40" name="sub_category" type="choice">
+            <choice/>
+        </element>
+        <element label="Supplier" mandatory="true" max_length="32" name="supplier" reference="x_103926_flamin_b_flamin_burgers_suppliers" type="reference"/>
         <index name="index">
             <element name="supplier"/>
         </index>
